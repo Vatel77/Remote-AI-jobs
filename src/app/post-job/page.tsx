@@ -32,7 +32,7 @@ export default function PostJob() {
             <input type="text" placeholder="e.g. Remote, Machine Learning, Python" style={{ padding: '12px', borderRadius: '6px', border: '1px solid #333', background: '#000', color: '#fff', fontSize: '1rem' }} />
           </div>
 
-          <button type="button" className="apply-btn" style={{ marginTop: '20px', padding: '15px', fontSize: '1.1rem' }} onClick={() => alert('Dans la version finale, ce bouton redirigera vers le Checkout Stripe !')}>
+          <button type="button" className="apply-btn" style={{ marginTop: '20px', padding: '15px', fontSize: '1.1rem' }} onClick={() => window.location.href = 'https://buy.stripe.com/9B6bJ10Pt6AA5Ra1iUbjW00'}>
             Pay $99 & Post Job
           </button>
         </form>
