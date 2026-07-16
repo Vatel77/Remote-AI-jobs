@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export type Job = {
   id: string;
@@ -52,11 +53,16 @@ export default function JobCard({ job }: { job: Job }) {
           <span>{job.company}</span> • <span>{job.location}</span>
         </div>
         <div className="job-tags">
-          {job.tags.map((tag) => (
-            <span key={tag} className={`tag ${tag.toLowerCase().includes('ai') || tag.toLowerCase().includes('machine learning') ? 'ai' : ''}`}>
-              {tag}
-            </span>
-          ))}
+          {job.tags.map((tag) => {
+            const isAi = tag.toLowerCase().includes('ai') || tag.toLowerCase().includes('machine learning');
+            return (
+              <Link key={tag} href={`/category/${encodeURIComponent(tag.toLowerCase())}`}>
+                <span className={`tag ${isAi ? 'ai' : ''}`}>
+                  {tag}
+                </span>
+              </Link>
+            );
+          })}
         </div>
       </div>
       <div className="job-meta">
