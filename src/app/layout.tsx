@@ -11,6 +11,18 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "RemoteAI Jobs | Premium AI & Remote Opportunities",
   description: "Find the best 100% remote jobs in the Artificial Intelligence industry.",
+  openGraph: {
+    title: "RemoteAI Jobs | Premium AI & Remote Opportunities",
+    description: "Find the best 100% remote jobs in the Artificial Intelligence industry.",
+    url: "https://remote-ai-jobs-rust.vercel.app",
+    siteName: "RemoteAI Jobs",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "RemoteAI Jobs | Premium AI & Remote Opportunities",
+    description: "Find the best 100% remote jobs in the Artificial Intelligence industry.",
+  },
 };
 
 export default function RootLayout({

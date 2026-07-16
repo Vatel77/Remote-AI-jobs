@@ -12,8 +12,40 @@ export type Job = {
 };
 
 export default function JobCard({ job }: { job: Job }) {
+  // Generate JSON-LD for Google for Jobs
+  const jsonLd = {
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": job.title,
+    "description": `Remote ${job.title} position at ${job.company}. Required skills: ${job.tags.join(', ')}.`,
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": job.company,
+    },
+    "jobLocationType": "TELECOMMUTE",
+    "applicantLocationRequirements": {
+      "@type": "Country",
+      "name": job.location === 'Worldwide' ? 'US' : job.location // Schema.org prefers specific countries, fallback to US for demo
+    },
+    "datePosted": new Date().toISOString().split('T')[0],
+    "employmentType": "FULL_TIME",
+    "baseSalary": job.salary ? {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": {
+        "@type": "QuantitativeValue",
+        "value": 100000, // Extracted value in a real app
+        "unitText": "YEAR"
+      }
+    } : undefined
+  };
+
   return (
     <div className="job-card">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="job-info">
         <h3>{job.title}</h3>
         <div className="job-company">
