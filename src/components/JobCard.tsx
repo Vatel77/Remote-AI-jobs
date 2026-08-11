@@ -10,9 +10,10 @@ export type Job = {
   tags: string[];
   postedAt: string;
   url: string;
+  isFeatured?: boolean;
 };
 
-export default function JobCard({ job }: { job: Job }) {
+export default function JobCard({ job, lang = 'en' }: { job: Job, lang?: string }) {
   // Generate JSON-LD for Google for Jobs
   const jsonLd = {
     "@context": "https://schema.org/",
@@ -26,12 +27,27 @@ export default function JobCard({ job }: { job: Job }) {
     "jobLocationType": "TELECOMMUTE",
     "applicantLocationRequirements": {
       "@type": "Country",
-  isFeatured?: boolean;
-}
+      "name": job.location === 'Worldwide' ? 'US' : job.location // Schema.org prefers specific countries, fallback to US for demo
+    },
+    "datePosted": new Date().toISOString().split('T')[0],
+    "employmentType": "FULL_TIME",
+    "baseSalary": job.salary ? {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": {
+        "@type": "QuantitativeValue",
+        "value": 100000, // Extracted value in a real app
+        "unitText": "YEAR"
+      }
+    } : undefined
+  };
 
-export default function JobCard({ job, lang = 'en' }: { job: Job, lang?: string }) {
   return (
     <div className={`job-card ${job.isFeatured ? 'featured' : ''}`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="job-info">
         <Link href={job.url} target="_blank">
           <h3>
