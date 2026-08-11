@@ -37,6 +37,9 @@ export default async function RootLayout(props: {
             </Link>
             
             <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
+              <Link href={`/${lang}/blog`} style={{ fontWeight: 500, marginRight: '10px' }}>
+                {dict.nav.blog}
+              </Link>
               <LanguageSwitcher currentLang={lang} />
               <Link href={`/${lang}/post-job`}>
                 <button className="post-job-btn">{dict.nav.postJob}</button>

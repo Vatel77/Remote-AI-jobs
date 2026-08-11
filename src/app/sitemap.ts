@@ -14,6 +14,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const blogUrls = postsData.posts.map(post => ({
+    url: `https://remote-ai-jobs-rust.vercel.app/en/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }));
+
   return [
     {
       url: 'https://remote-ai-jobs-rust.vercel.app',
@@ -27,6 +34,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.5,
     },
-    ...categoryUrls
+    {
+      url: 'https://remote-ai-jobs-rust.vercel.app/en/blog',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    ...categoryUrls,
+    ...blogUrls
   ]
 }

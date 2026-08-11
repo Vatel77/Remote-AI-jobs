@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "slug": "top-10-ai-startups-hiring-remotely-2026",
+      "title": "Top 10 AI Startups Hiring Remotely in 2026",
+      "excerpt": "Discover the most exciting artificial intelligence startups that offer 100% remote work opportunities this year.",
+      "content": "<h2>The Golden Age of Remote AI Work</h2><p>In 2026, the artificial intelligence landscape is evolving faster than ever. While some tech giants are calling employees back to the office, the most innovative AI startups realize that top talent is distributed globally.</p><h3>1. Anthropic</h3><p>Known for their safety-first approach and the Claude model family, Anthropic offers highly competitive remote positions for researchers and ML engineers.</p><h3>2. Mistral AI</h3><p>The European champion of open-source models is hiring aggressively across the globe. They value a hacker mindset and deep technical expertise.</p><h3>3. Hugging Face</h3><p>The open-source AI community hub operates as a remote-first company, allowing engineers to work on cutting-edge open models from anywhere in the world.</p><p><em>Explore our job board to find the latest openings at these incredible companies!</em></p>",
+      "author": "Guillaume",
+      "date": "2026-08-10",
+      "tags": ["startups", "remote work", "machine learning"]
+    },
+    {
+      "id": "2",
+      "slug": "how-to-become-a-prompt-engineer",
+      "title": "How to Become a Prompt Engineer: The Complete Guide",
+      "excerpt": "A step-by-step roadmap to transitioning your career into Prompt Engineering and earning top salaries in the AI boom.",
+      "content": "<h2>What is a Prompt Engineer?</h2><p>Prompt engineering is the art and science of communicating effectively with large language models (LLMs) to generate desired outputs. It's quickly becoming one of the most sought-after non-technical roles in the AI industry.</p><h3>Step 1: Master the Basics</h3><p>Start by understanding the difference between zero-shot, one-shot, and few-shot prompting. Learn how different models (GPT-4 vs. Claude 3) respond to various instructional phrasing.</p><h3>Step 2: Build a Portfolio</h3><p>The best way to prove your skills is to build things. Create specialized GPTs, automate workflows using AI APIs, or write comprehensive prompt libraries for specific industries.</p><h3>Step 3: Apply for the Right Jobs</h3><p>Many traditional companies are now hiring prompt engineers to help them integrate AI into their daily operations. Look for roles titled 'AI Operations Specialist', 'AI Interaction Designer', or 'Prompt Engineer'.</p>",
+      "author": "Guillaume",
+      "date": "2026-08-05",
+      "tags": ["career", "prompt engineering", "guide"]
+    },
+    {
+      "id": "3",
+      "slug": "ml-engineer-salary-guide-2026",
+      "title": "Machine Learning Engineer Salary Guide 2026",
+      "excerpt": "Detailed compensation data for Remote Machine Learning Engineers, broken down by experience and region.",
+      "content": "<h2>Explosive Growth in AI Compensation</h2><p>The demand for Machine Learning talent has pushed salaries to unprecedented highs. If you have experience fine-tuning LLMs or deploying models at scale, you are in a highly lucrative market.</p><ul><li style='margin-bottom: 10px'><strong>Junior ML Engineer (0-2 years):</strong> $120,000 - $160,000 base salary. Strong emphasis on basic Python skills and familiarity with PyTorch or TensorFlow.</li><li style='margin-bottom: 10px'><strong>Senior ML Engineer (3-5+ years):</strong> $180,000 - $280,000 base salary + significant equity. These roles require experience deploying models to production and optimizing latency.</li><li style='margin-bottom: 10px'><strong>Staff AI Researcher (PhD or 7+ years):</strong> $300,000+ base salary. The absolute top of the market, typically reserved for those inventing new model architectures.</li></ul><p><em>Note: Remote salaries are increasingly becoming location-agnostic, meaning you can earn Silicon Valley salaries from anywhere in the world.</em></p>",
+      "author": "Guillaume",
+      "date": "2026-08-01",
+      "tags": ["salary", "machine learning", "data"]
+    }
+  ]
+}
