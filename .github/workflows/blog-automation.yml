@@ -1,0 +1,32 @@
+name: Auto-Blogger SEO
+
+on:
+  schedule:
+    # Runs at 08:00 UTC every 2 days
+    - cron: '0 8 */2 * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  generate-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Auto-Blogger Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/auto-blogger.mjs
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'AI Auto-Blogger'
+          git config --global user.email 'bot@remote-ai-jobs.com'
+          git add data/posts.json
+          git commit -m "📝 SEO: Auto-published new blog post" || echo "No changes to commit"
+          git push

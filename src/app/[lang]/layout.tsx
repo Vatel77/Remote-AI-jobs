@@ -4,6 +4,7 @@ import "../globals.css";
 import Link from "next/link";
 import { dictionaries, Locale } from "../../i18n/dictionaries";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { Analytics } from '@vercel/analytics/react';
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -48,6 +49,7 @@ export default async function RootLayout(props: {
           </nav>
           {props.children}
         </div>
+        <Analytics />
       </body>
     </html>
   );
