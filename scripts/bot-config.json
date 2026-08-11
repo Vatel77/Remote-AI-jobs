@@ -1,0 +1,7 @@
+{
+  "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=hiring%20ai%20engineer",
+  "maxConnectionsPerDay": 15,
+  "minDelaySeconds": 120,
+  "maxDelaySeconds": 300,
+  "messageTemplate": "Bonjour, j'ai vu que vous recrutez dans l'IA. Je gère RemoteAI Jobs, une plateforme avec +15k candidats qualifiés. Seriez-vous ouvert à y publier vos annonces ? Bonne journée !"
+}
