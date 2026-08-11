@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
-import "../../globals.css";
+import "../globals.css";
 import Link from "next/link";
 import { dictionaries, Locale } from "../../i18n/dictionaries";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
