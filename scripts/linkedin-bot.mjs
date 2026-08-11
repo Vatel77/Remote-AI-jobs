@@ -109,42 +109,65 @@ async function startBot() {
       const isRealButton = aria.includes('invit') || (text.includes('connect') && text.length < 20);
       
       if (isRealButton) {
-        console.log(`🎯 Vrai bouton 'Connecter' trouvé ! Tentative de clic...`);
+        // Vérifier si le bouton est vraiment visible à l'écran (non caché par le CSS de LinkedIn)
+        const box = await el.boundingBox();
+        if (!box || box.width === 0 || box.height === 0) {
+           console.log("👻 Bouton ignoré car il est invisible (caché par le site).");
+           continue;
+        }
+
+        console.log(`🎯 Vrai bouton 'Connecter' visible trouvé ! Tentative de clic...`);
         
         try {
+          // Scroller l'élément au centre de l'écran et faire le clic natif
+          await page.evaluate(b => b.scrollIntoView({block: 'center', inline: 'center'}), el);
+          await sleep(1000);
           await el.click();
           await sleep(2000);
 
-          // Vérifier si la modale d'ajout de note apparaît (on utilise aria-label sans forcer la balise button)
-          const noteButton = await page.$('[aria-label="Add a note"], [aria-label="Ajouter une note"]');
-          if (noteButton) {
-            await noteButton.click();
-            await sleep(1500);
+          // Attendre que la modale s'ouvre bien
+          await sleep(3000);
 
-            console.log("✍️ Écriture du message...");
-            await page.keyboard.type(config.messageTemplate, { delay: 30 }); // Type like a human
-            await sleep(2000);
-
-            const sendBtn = await page.$('button[aria-label="Send now"], button[aria-label="Envoyer"]');
-            if (sendBtn) {
-            // Clic sur Envoyer
-            const sendButton = await page.$('[aria-label="Send now"], [aria-label="Envoyer"]');
-            if (sendButton) {
-              await sendButton.click();
-              console.log("✅ Invitation envoyée avec succès !");
+          // Clic direct sur le bouton principal de la modale en utilisant des clics natifs
+          let clickedSendWithoutNote = false;
+          
+          // Vérifier si la modale est bien là
+          const modalExists = await page.$('.artdeco-modal');
+          if (!modalExists) {
+            console.log("⚠️ Modale introuvable (le clic sur 'Se connecter' a été bloqué par LinkedIn ou limite atteinte)");
+          } else {
+            const modalBtns = await page.$$('.artdeco-modal button, .artdeco-modal [role="button"]');
+            
+            for (const b of modalBtns) {
+               const text = await page.evaluate(node => (node.innerText || node.textContent || '').toLowerCase(), b);
+               const className = await page.evaluate(node => node.className || '', b);
+               
+               // On cherche le bouton principal ou le texte "envoyer" / "sans note"
+               if (className.includes('artdeco-button--primary') || text.includes('sans note') || text.includes('without a note') || text === 'envoyer' || text === 'send') {
+                  // Scroll pour s'assurer qu'il est visible
+                  await page.evaluate(node => node.scrollIntoView({block: 'center'}), b);
+                  await sleep(500);
+                  await b.click();
+                  clickedSendWithoutNote = true;
+                  break;
+               }
+            }
+            
+            if (clickedSendWithoutNote) {
+              console.log("✅ Invitation envoyée (sans note) avec succès !");
               connectionsSent++;
               clickedAny = true;
             } else {
-              console.log("⚠️ Impossible de trouver le bouton d'envoi. Annulation pour ce profil.");
-              // Fermeture de la modale pour éviter de bloquer la suite
-              const closeBtn = await page.$('[aria-label="Dismiss"], [aria-label="Fermer"]');
-              if (closeBtn) await closeBtn.click();
+              console.log("⚠️ Impossible de trouver le bouton d'envoi dans la modale.");
+              // Fermeture de la modale
+              for (const b of modalBtns) {
+                 const aria = await page.evaluate(node => (node.getAttribute('aria-label') || '').toLowerCase(), b);
+                 if (aria.includes('dismiss') || aria.includes('fermer')) {
+                    await b.click();
+                    break;
+                 }
+              }
             }
-          } else {
-            console.log("⚠️ Impossible de trouver le bouton 'Ajouter une note'. Annulation pour ce profil.");
-            // Fermeture de la modale pour éviter de bloquer la suite
-            const closeBtn = await page.$('[aria-label="Dismiss"], [aria-label="Fermer"]');
-            if (closeBtn) await closeBtn.click();
           }
         } catch (e) {
           console.log("⚠️ Erreur lors de l'interaction avec le profil :", e.message);

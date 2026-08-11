@@ -3,5 +3,5 @@
   "maxConnectionsPerDay": 15,
   "minDelaySeconds": 120,
   "maxDelaySeconds": 300,
-  "messageTemplate": "Bonjour, j'ai vu que vous recrutez dans l'IA. Je gère RemoteAI Jobs, une plateforme avec +15k candidats qualifiés. Seriez-vous ouvert à y publier vos annonces ? Bonne journée !"
+  "messageTemplate": "Bonjour ! J'ai vu que vous recrutez des profils IA. J'ai créé RemoteAI Jobs, une plateforme dédiée aux experts en Machine Learning et IA en télétravail. Si vous cherchez les meilleurs talents, publiez vos offres ici : https://remote-ai-jobs-rust.vercel.app/"
 }
