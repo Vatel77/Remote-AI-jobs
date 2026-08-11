@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 import jobsData from '../../data/jobs.json';
- 
+import postsData from '../../data/posts.json';
 export default function sitemap(): MetadataRoute.Sitemap {
   const tags = new Set<string>();
   jobsData.jobs.forEach(job => {
