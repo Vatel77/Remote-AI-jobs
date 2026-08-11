@@ -18,16 +18,16 @@ export default function PostJob(props: { params: Promise<{ lang: string }> }) {
       <div className="pricing-container">
         {/* Basic Tier */}
         <div className="pricing-card">
-          <h3>{dict.standard.title}</h3>
-          <p style={{ color: 'var(--text-muted)' }}>{dict.standard.desc}</p>
+          <h3>{dict.classic.title}</h3>
+          <p style={{ color: 'var(--text-muted)' }}>{dict.classic.desc}</p>
           <div className="pricing-price">$49</div>
           <ul className="pricing-features">
-            <li>{dict.standard.f1}</li>
-            <li>{dict.standard.f2}</li>
-            <li>{dict.standard.f3}</li>
+            <li>{dict.classic.f1}</li>
+            <li>{dict.classic.f2}</li>
+            <li>{dict.classic.f3}</li>
           </ul>
           <Link href="https://buy.stripe.com/fZu00j1Tx3oo6Ve7HibjW02" target="_blank">
-            <button className="apply-btn" style={{ width: '100%', padding: '15px' }}>Post Standard</button>
+            <button className="apply-btn" style={{ width: '100%', padding: '15px' }}>Post Classic</button>
           </Link>
         </div>
 
@@ -49,16 +49,16 @@ export default function PostJob(props: { params: Promise<{ lang: string }> }) {
 
         {/* Enterprise Tier */}
         <div className="pricing-card">
-          <h3>{dict.enterprise.title}</h3>
-          <p style={{ color: 'var(--text-muted)' }}>{dict.enterprise.desc}</p>
+          <h3>{dict.premium.title}</h3>
+          <p style={{ color: 'var(--text-muted)' }}>{dict.premium.desc}</p>
           <div className="pricing-price">$199</div>
           <ul className="pricing-features">
-            <li><strong>{dict.enterprise.f1}</strong></li>
-            <li>{dict.enterprise.f2}</li>
-            <li>{dict.enterprise.f3}</li>
+            <li><strong>{dict.premium.f1}</strong></li>
+            <li>{dict.premium.f2}</li>
+            <li>{dict.premium.f3}</li>
           </ul>
           <Link href="https://buy.stripe.com/7sY9AT0PtaQQa7q5zabjW01" target="_blank">
-            <button className="apply-btn" style={{ width: '100%', padding: '15px' }}>Post Enterprise</button>
+            <button className="apply-btn" style={{ width: '100%', padding: '15px' }}>Post Premium</button>
           </Link>
         </div>
       </div>

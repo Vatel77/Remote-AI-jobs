@@ -9,9 +9,9 @@ export const dictionaries = {
     pricing: {
       title: "Hire the top 1% of AI Talent",
       subtitle: "Reach an active network of 15,000+ AI Researchers, ML Engineers, and Prompt Experts looking for remote work.",
-      standard: { title: "Standard", desc: "Perfect for startups", f1: "Listed on the job board for 30 days", f2: "Standard visibility", f3: "Included in weekly digest" },
-      featured: { title: "Featured", desc: "Maximum visibility & applicants", f1: "Everything in Standard", f2: "Pinned to the top of the homepage for 7 days", f3: "Highlighted with a gold 'Promoted' badge" },
-      enterprise: { title: "Enterprise", desc: "For aggressive hiring", f1: "Everything in Featured", f2: "Dedicated blast to 15,000+ newsletter subscribers", f3: "Logo on homepage 'Trusted By' section" },
+      classic: { title: "Classic", desc: "Perfect for startups", f1: "Listed on the job board for 30 days", f2: "Standard visibility", f3: "Included in weekly digest" },
+      featured: { title: "Featured", desc: "Maximum visibility & applicants", f1: "Everything in Classic", f2: "Pinned to the top of the homepage for 7 days", f3: "Highlighted with a gold 'Promoted' badge" },
+      premium: { title: "Premium", desc: "For aggressive hiring", f1: "Everything in Featured", f2: "Dedicated blast to 15,000+ newsletter subscribers", f3: "Logo on homepage 'Trusted By' section" },
       secure: "🔒 Secure payment processing via Stripe."
     },
     category: {
@@ -30,9 +30,9 @@ export const dictionaries = {
     pricing: {
       title: "Recrutez le top 1% des talents IA",
       subtitle: "Touchez un réseau actif de plus de 15 000 chercheurs en IA, ingénieurs ML et experts Prompt cherchant du télétravail.",
-      standard: { title: "Standard", desc: "Parfait pour les startups", f1: "Publié sur le site pendant 30 jours", f2: "Visibilité standard", f3: "Inclus dans la newsletter hebdo" },
-      featured: { title: "Mise en avant", desc: "Visibilité & candidats maximum", f1: "Tout ce qui est dans Standard", f2: "Épinglé en haut de l'accueil pendant 7 jours", f3: "Mis en évidence avec un badge 'Promoted' doré" },
-      enterprise: { title: "Entreprise", desc: "Pour un recrutement agressif", f1: "Tout ce qui est dans Mise en avant", f2: "Envoi dédié aux 15 000+ abonnés", f3: "Logo sur la page d'accueil" },
+      classic: { title: "Classic", desc: "Parfait pour les startups", f1: "Publié sur le site pendant 30 jours", f2: "Visibilité standard", f3: "Inclus dans la newsletter hebdo" },
+      featured: { title: "Mise en avant", desc: "Visibilité & candidats maximum", f1: "Tout ce qui est dans Classic", f2: "Épinglé en haut de l'accueil pendant 7 jours", f3: "Mis en évidence avec un badge 'Promoted' doré" },
+      premium: { title: "Premium", desc: "Pour un recrutement agressif", f1: "Tout ce qui est dans Mise en avant", f2: "Envoi dédié aux 15 000+ abonnés", f3: "Logo sur la page d'accueil" },
       secure: "🔒 Paiement sécurisé via Stripe."
     },
     category: {
@@ -51,9 +51,9 @@ export const dictionaries = {
     pricing: {
       title: "Stellen Sie die besten 1% der KI-Talente ein",
       subtitle: "Erreichen Sie ein aktives Netzwerk von über 15.000 KI-Forschern, ML-Ingenieuren und Prompt-Experten.",
-      standard: { title: "Standard", desc: "Perfekt für Startups", f1: "30 Tage lang in der Jobbörse gelistet", f2: "Standard-Sichtbarkeit", f3: "In wöchentlicher Zusammenfassung enthalten" },
-      featured: { title: "Hervorgehoben", desc: "Maximale Sichtbarkeit & Bewerber", f1: "Alles aus Standard", f2: "7 Tage lang oben auf der Startseite angeheftet", f3: "Hervorgehoben mit einem goldenen 'Promoted'-Abzeichen" },
-      enterprise: { title: "Unternehmen", desc: "Für aggressives Recruiting", f1: "Alles aus Hervorgehoben", f2: "Dedizierter Versand an über 15.000 Newsletter-Abonnenten", f3: "Logo im Bereich 'Trusted By' auf der Startseite" },
+      classic: { title: "Classic", desc: "Perfekt für Startups", f1: "30 Tage lang in der Jobbörse gelistet", f2: "Standard-Sichtbarkeit", f3: "In wöchentlicher Zusammenfassung enthalten" },
+      featured: { title: "Hervorgehoben", desc: "Maximale Sichtbarkeit & Bewerber", f1: "Alles aus Classic", f2: "7 Tage lang oben auf der Startseite angeheftet", f3: "Hervorgehoben mit einem goldenen 'Promoted'-Abzeichen" },
+      premium: { title: "Premium", desc: "Für aggressives Recruiting", f1: "Alles aus Hervorgehoben", f2: "Dedizierter Versand an über 15.000 Newsletter-Abonnenten", f3: "Logo im Bereich 'Trusted By' auf der Startseite" },
       secure: "🔒 Sichere Zahlungsabwicklung über Stripe."
     },
     category: {
@@ -72,9 +72,9 @@ export const dictionaries = {
     pricing: {
       title: "Contrata al 1% de los mejores talentos de IA",
       subtitle: "Llega a una red activa de más de 15 000 investigadores de IA, ingenieros de ML y expertos en Prompt que buscan trabajo remoto.",
-      standard: { title: "Estándar", desc: "Perfecto para startups", f1: "Listado en la bolsa de trabajo por 30 días", f2: "Visibilidad estándar", f3: "Incluido en el resumen semanal" },
-      featured: { title: "Destacado", desc: "Máxima visibilidad y solicitantes", f1: "Todo lo de Estándar", f2: "Fijado en la parte superior de la página de inicio durante 7 días", f3: "Resaltado con una insignia dorada de 'Promoted'" },
-      enterprise: { title: "Empresa", desc: "Para contrataciones agresivas", f1: "Todo lo de Destacado", f2: "Envío dedicado a más de 15 000 suscriptores del boletín", f3: "Logotipo en la sección 'Trusted By' de la página de inicio" },
+      classic: { title: "Classic", desc: "Perfecto para startups", f1: "Listado en la bolsa de trabajo por 30 días", f2: "Visibilidad estándar", f3: "Incluido en el resumen semanal" },
+      featured: { title: "Destacado", desc: "Máxima visibilidad y solicitantes", f1: "Todo lo de Classic", f2: "Fijado en la parte superior de la página de inicio durante 7 días", f3: "Resaltado con una insignia dorada de 'Promoted'" },
+      premium: { title: "Premium", desc: "Para contrataciones agresivas", f1: "Todo lo de Destacado", f2: "Envío dedicado a más de 15 000 suscriptores del boletín", f3: "Logotipo en la sección 'Trusted By' de la página de inicio" },
       secure: "🔒 Procesamiento de pago seguro a través de Stripe."
     },
     category: {
