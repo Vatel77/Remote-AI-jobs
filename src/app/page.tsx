@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import JobList from "@/components/JobList";
 import JobCard from "@/components/JobCard";
 
@@ -39,3 +40,19 @@ export default function Home() {
     </main>
   );
 }
+=======
+import JobList from "@/components/JobList";
+
+export default function Home() {
+  return (
+    <main>
+      <section className="hero">
+        <h1>Work in AI, from anywhere.</h1>
+        <p>Curated 100% remote job opportunities for Machine Learning Engineers, Prompt Engineers, AI Researchers, and more.</p>
+      </section>
+      
+      <JobList />
+    </main>
+  );
+}
+>>>>>>> 4c2cc78697298646300055dab3457dce296e5d6e
