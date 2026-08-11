@@ -58,7 +58,7 @@ export default function PostJob(props: { params: Promise<{ lang: string }> }) {
             <li>{dict.enterprise.f3}</li>
           </ul>
           <Link href="https://buy.stripe.com/7sY9AT0PtaQQa7q5zabjW01" target="_blank">
-            <button className="apply-btn" style={{ width: '100%', padding: '15px', background: 'transparent', border: '1px solid var(--border-color)', color: '#fff' }}>Post Enterprise</button>
+            <button className="apply-btn" style={{ width: '100%', padding: '15px' }}>Post Enterprise</button>
           </Link>
         </div>
       </div>
