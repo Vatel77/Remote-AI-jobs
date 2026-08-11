@@ -26,38 +26,31 @@ export default function JobCard({ job }: { job: Job }) {
     "jobLocationType": "TELECOMMUTE",
     "applicantLocationRequirements": {
       "@type": "Country",
-      "name": job.location === 'Worldwide' ? 'US' : job.location // Schema.org prefers specific countries, fallback to US for demo
-    },
-    "datePosted": new Date().toISOString().split('T')[0],
-    "employmentType": "FULL_TIME",
-    "baseSalary": job.salary ? {
-      "@type": "MonetaryAmount",
-      "currency": "USD",
-      "value": {
-        "@type": "QuantitativeValue",
-        "value": 100000, // Extracted value in a real app
-        "unitText": "YEAR"
-      }
-    } : undefined
-  };
+  isFeatured?: boolean;
+}
 
+export default function JobCard({ job, lang = 'en' }: { job: Job, lang?: string }) {
   return (
-    <div className="job-card">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+    <div className={`job-card ${job.isFeatured ? 'featured' : ''}`}>
       <div className="job-info">
-        <h3>{job.title}</h3>
+        <Link href={job.url} target="_blank">
+          <h3>
+            {job.title}
+            {job.isFeatured && <span className="featured-badge">PROMOTED</span>}
+          </h3>
+        </Link>
         <div className="job-company">
-          <span>{job.company}</span> • <span>{job.location}</span>
+          <strong>{job.company}</strong>
+          <span>•</span>
+          <span>{job.location}</span>
         </div>
+        
         <div className="job-tags">
-          {job.tags.map((tag) => {
-            const isAi = tag.toLowerCase().includes('ai') || tag.toLowerCase().includes('machine learning');
+          {job.tags.map(tag => {
+            const isAI = ['machine learning', 'ai', 'prompt', 'llm'].some(k => tag.toLowerCase().includes(k));
             return (
-              <Link key={tag} href={`/category/${encodeURIComponent(tag.toLowerCase())}`}>
-                <span className={`tag ${isAi ? 'ai' : ''}`}>
+              <Link key={tag} href={`/${lang}/category/${encodeURIComponent(tag.toLowerCase())}`}>
+                <span className={`tag ${isAI ? 'ai' : ''}`}>
                   {tag}
                 </span>
               </Link>
@@ -65,12 +58,13 @@ export default function JobCard({ job }: { job: Job }) {
           })}
         </div>
       </div>
+      
       <div className="job-meta">
-        {job.salary && <div className="job-salary">{job.salary}</div>}
+        <div className="job-salary">{job.salary}</div>
         <div className="job-time">{job.postedAt}</div>
-        <a href={job.url} target="_blank" rel="noopener noreferrer">
+        <Link href={job.url} target="_blank">
           <button className="apply-btn">Apply Now</button>
-        </a>
+        </Link>
       </div>
     </div>
   );

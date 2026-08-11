@@ -1,10 +1,11 @@
 import React from 'react';
-import jobsData from '../../../../data/jobs.json';
+import jobsData from '../../../../../data/jobs.json';
 import JobCard from '@/components/JobCard';
 import { Metadata } from 'next';
+import { dictionaries, Locale } from "../../../../i18n/dictionaries";
 
 type Props = {
-  params: Promise<{ tag: string }>
+  params: Promise<{ tag: string, lang: string }>
 }
 
 export async function generateMetadata(props: Props): Promise<Metadata> {
@@ -30,6 +31,8 @@ export async function generateStaticParams() {
 export default async function CategoryPage(props: Props) {
   const params = await props.params;
   const tag = decodeURIComponent(params.tag).toLowerCase();
+  const lang = (params.lang as Locale) || 'en';
+  const dict = (dictionaries[lang] || dictionaries['en']).category;
   
   const jobs = jobsData.jobs.filter(job => 
     job.tags.some(t => t.toLowerCase() === tag)
@@ -40,15 +43,15 @@ export default async function CategoryPage(props: Props) {
   return (
     <main>
       <section className="hero" style={{ padding: '40px 0' }}>
-        <h1>Remote {displayTag} Jobs</h1>
-        <p>Showing {jobs.length} remote opportunities for {displayTag} professionals.</p>
+        <h1>{dict.title.replace('{tag}', displayTag)}</h1>
+        <p>{dict.subtitle.replace('{count}', jobs.length.toString()).replace('{tag}', displayTag)}</p>
       </section>
       
       <div className="job-list">
         {jobs.length > 0 ? (
-          jobs.map(job => <JobCard key={job.id} job={job} />)
+          jobs.map(job => <JobCard key={job.id} job={job} lang={lang} />)
         ) : (
-          <p style={{ textAlign: 'center', color: '#888' }}>No jobs found for this category at the moment.</p>
+          <p style={{ textAlign: 'center', color: '#888' }}>{dict.empty}</p>
         )}
       </div>
     </main>

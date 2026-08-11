@@ -1,8 +1,12 @@
-<<<<<<< HEAD
 import JobList from "@/components/JobList";
 import JobCard from "@/components/JobCard";
+import { dictionaries, Locale } from "../../i18n/dictionaries";
 
-export default function Home() {
+export default async function Home(props: { params: Promise<{ lang: string }> }) {
+  const params = await props.params;
+  const lang = (params.lang as Locale) || 'en';
+  const dict = dictionaries[lang] || dictionaries['en'];
+
   const dummyFeaturedJob = {
     id: "featured-1",
     title: "Senior AI Engineer (Example Featured)",
@@ -18,12 +22,12 @@ export default function Home() {
   return (
     <main>
       <section className="hero">
-        <h1>Find your dream AI job.</h1>
-        <p>Curated 100% remote opportunities for Machine Learning Engineers, Prompt Engineers, and AI Researchers.</p>
+        <h1>{dict.hero.title}</h1>
+        <p>{dict.hero.subtitle}</p>
       </section>
       
       <div className="social-proof">
-        <p>Trusted by recruiters from top AI companies</p>
+        <p>{dict.socialProof.title}</p>
         <div className="logos">
           <span>Anthropic</span>
           <span>OpenAI</span>
@@ -36,23 +40,7 @@ export default function Home() {
         <JobCard job={dummyFeaturedJob} />
       </div>
 
-      <JobList />
+      <JobList lang={lang} />
     </main>
   );
 }
-=======
-import JobList from "@/components/JobList";
-
-export default function Home() {
-  return (
-    <main>
-      <section className="hero">
-        <h1>Work in AI, from anywhere.</h1>
-        <p>Curated 100% remote job opportunities for Machine Learning Engineers, Prompt Engineers, AI Researchers, and more.</p>
-      </section>
-      
-      <JobList />
-    </main>
-  );
-}
->>>>>>> 4c2cc78697298646300055dab3457dce296e5d6e
