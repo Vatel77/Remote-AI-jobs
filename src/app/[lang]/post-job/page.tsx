@@ -26,7 +26,7 @@ export default function PostJob(props: { params: Promise<{ lang: string }> }) {
             <li>{dict.standard.f2}</li>
             <li>{dict.standard.f3}</li>
           </ul>
-          <Link href="https://buy.stripe.com/9B6bJ10Pt6AA5Ra1iUbjW00" target="_blank">
+          <Link href="https://buy.stripe.com/fZu00j1Tx3oo6Ve7HibjW02" target="_blank">
             <button className="apply-btn" style={{ width: '100%', padding: '15px' }}>Post Standard</button>
           </Link>
         </div>
@@ -42,7 +42,7 @@ export default function PostJob(props: { params: Promise<{ lang: string }> }) {
             <li>{dict.featured.f2}</li>
             <li>{dict.featured.f3}</li>
           </ul>
-          <Link href="https://buy.stripe.com/9B6bJ10Pt6AA5Ra1iUbjW00" target="_blank">
+          <Link href="https://buy.stripe.com/28EfZhaq3aQQ5Rad1CbjW03" target="_blank">
             <button className="apply-btn" style={{ width: '100%', padding: '15px' }}>Post Featured</button>
           </Link>
         </div>
@@ -57,8 +57,8 @@ export default function PostJob(props: { params: Promise<{ lang: string }> }) {
             <li>{dict.enterprise.f2}</li>
             <li>{dict.enterprise.f3}</li>
           </ul>
-          <Link href="mailto:contact@remote-ai-jobs.com">
-            <button className="apply-btn" style={{ width: '100%', padding: '15px', background: 'transparent', border: '1px solid var(--border-color)', color: '#fff' }}>Contact Us</button>
+          <Link href="https://buy.stripe.com/7sY9AT0PtaQQa7q5zabjW01" target="_blank">
+            <button className="apply-btn" style={{ width: '100%', padding: '15px', background: 'transparent', border: '1px solid var(--border-color)', color: '#fff' }}>Post Enterprise</button>
           </Link>
         </div>
       </div>

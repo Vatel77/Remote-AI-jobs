@@ -1,6 +1,6 @@
 export const dictionaries = {
   en: {
-    nav: { postJob: "Post a Job - $99", blog: "Blog" },
+    nav: { postJob: "Post a Job", blog: "Blog" },
     hero: { 
       title: "Find your dream AI job.", 
       subtitle: "Curated 100% remote opportunities for Machine Learning Engineers, Prompt Engineers, and AI Researchers." 
@@ -21,7 +21,7 @@ export const dictionaries = {
     }
   },
   fr: {
-    nav: { postJob: "Publier une annonce - 99$", blog: "Blog" },
+    nav: { postJob: "Publier une annonce", blog: "Blog" },
     hero: { 
       title: "Trouvez le job IA de vos rêves.", 
       subtitle: "Des opportunités 100% télétravail sélectionnées pour les ingénieurs Machine Learning, les ingénieurs Prompt et les chercheurs en IA." 
@@ -42,7 +42,7 @@ export const dictionaries = {
     }
   },
   de: {
-    nav: { postJob: "Job inserieren - 99$", blog: "Blog" },
+    nav: { postJob: "Job inserieren", blog: "Blog" },
     hero: { 
       title: "Finde deinen Traum-KI-Job.", 
       subtitle: "Kuratierte 100% Remote-Möglichkeiten für Machine Learning Engineers, Prompt Engineers und KI-Forscher." 
@@ -63,7 +63,7 @@ export const dictionaries = {
     }
   },
   es: {
-    nav: { postJob: "Publicar empleo - 99$", blog: "Blog" },
+    nav: { postJob: "Publicar empleo", blog: "Blog" },
     hero: { 
       title: "Encuentra tu trabajo de IA ideal.", 
       subtitle: "Oportunidades 100% remotas seleccionadas para ingenieros de Machine Learning, ingenieros de Prompt y exploradores de IA." 

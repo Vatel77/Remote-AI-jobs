@@ -86,35 +86,39 @@ async function startBot() {
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
     await sleep(3000);
 
-    // Find all buttons on the page
-    const buttons = await page.$$('button');
+    // LinkedIn peut utiliser des <button>, des <a> ou des <div role="button">
+    const elements = await page.$$('button, a, [role="button"]');
     let clickedAny = false;
     
-    console.log(`👀 ${buttons.length} boutons trouvés sur la page. Analyse en cours...`);
+    console.log(`👀 ${elements.length} éléments cliquables trouvés sur la page. Analyse...`);
 
-    for (const button of buttons) {
+    for (const el of elements) {
       if (connectionsSent >= config.maxConnectionsPerDay) break;
 
-      // Utilisation de innerText qui est plus fidèle à ce qui est affiché à l'écran
-      const text = await page.evaluate(el => (el.innerText || el.textContent || '').trim().toLowerCase(), button);
+      const text = await page.evaluate(e => (e.innerText || e.textContent || '').trim().toLowerCase(), el);
+      const aria = await page.evaluate(e => (e.getAttribute('aria-label') || '').trim().toLowerCase(), el);
       
-      // On filtre les boutons vides pour ne pas polluer la console
-      if (text && (text.includes('connect') || text.includes('suivre') || text.includes('message'))) {
-        console.log(`- Bouton analysé : "${text.replace(/\n/g, ' ')}"`);
+      const content = `${text} | ${aria}`.replace(/\s+/g, ' '); 
+      
+      // On loggue uniquement les éléments qui ressemblent à des boutons de réseau pour ne pas spammer
+      if (content.includes('connect') || content.includes('invit') || content.includes('suivre')) {
+        console.log(`[SCAN] "${content.substring(0, 150)}"`);
       }
 
-      // Si le bouton contient "connect" (marche pour "Connect" et "Se connecter")
-      if (text.includes('connect')) {
-        console.log("🎯 Bouton 'Connecter' trouvé ! Tentative de clic...");
+      // On vérifie que aria-label contient 'invit' ou que le texte est court pour éviter de cliquer sur les cartes de profil entières
+      const isRealButton = aria.includes('invit') || (text.includes('connect') && text.length < 20);
+      
+      if (isRealButton) {
+        console.log(`🎯 Vrai bouton 'Connecter' trouvé ! Tentative de clic...`);
         
         try {
-          await button.click();
+          await el.click();
           await sleep(2000);
 
-          // Check if the "Add a note" modal appeared
-          const addNoteBtn = await page.$('button[aria-label="Add a note"], button[aria-label="Ajouter une note"]');
-          if (addNoteBtn) {
-            await addNoteBtn.click();
+          // Vérifier si la modale d'ajout de note apparaît (on utilise aria-label sans forcer la balise button)
+          const noteButton = await page.$('[aria-label="Add a note"], [aria-label="Ajouter une note"]');
+          if (noteButton) {
+            await noteButton.click();
             await sleep(1500);
 
             console.log("✍️ Écriture du message...");
@@ -123,22 +127,23 @@ async function startBot() {
 
             const sendBtn = await page.$('button[aria-label="Send now"], button[aria-label="Envoyer"]');
             if (sendBtn) {
-              // UNCOMMENT NEXT LINE TO ACTUALLY SEND
-              // await sendBtn.click();
-              console.log("✅ (MODE TEST) Message écrit, envoi simulé.");
+            // Clic sur Envoyer
+            const sendButton = await page.$('[aria-label="Send now"], [aria-label="Envoyer"]');
+            if (sendButton) {
+              await sendButton.click();
+              console.log("✅ Invitation envoyée avec succès !");
               connectionsSent++;
               clickedAny = true;
-              
-              // Close modal for test mode (to continue to next)
-              const closeBtn = await page.$('button[aria-label="Dismiss"], button[aria-label="Fermer"]');
+            } else {
+              console.log("⚠️ Impossible de trouver le bouton d'envoi. Annulation pour ce profil.");
+              // Fermeture de la modale pour éviter de bloquer la suite
+              const closeBtn = await page.$('[aria-label="Dismiss"], [aria-label="Fermer"]');
               if (closeBtn) await closeBtn.click();
-              
-              await randomDelay();
             }
           } else {
             console.log("⚠️ Impossible de trouver le bouton 'Ajouter une note'. Annulation pour ce profil.");
-            // Close modal if needed
-            const closeBtn = await page.$('button[aria-label="Dismiss"], button[aria-label="Fermer"]');
+            // Fermeture de la modale pour éviter de bloquer la suite
+            const closeBtn = await page.$('[aria-label="Dismiss"], [aria-label="Fermer"]');
             if (closeBtn) await closeBtn.click();
           }
         } catch (e) {
@@ -149,12 +154,25 @@ async function startBot() {
 
     if (!clickedAny) {
       console.log("⏭️ Plus de cibles sur cette page, passage à la page suivante...");
-      const nextBtn = await page.$('button[aria-label="Next"], button[aria-label="Suivant"]');
-      if (nextBtn) {
-        await nextBtn.click();
+      
+      const nextBtnClicked = await page.evaluate(() => {
+        const btns = Array.from(document.querySelectorAll('button, [role="button"]'));
+        const next = btns.find(b => {
+          const t = (b.innerText || b.textContent || '').toLowerCase();
+          const aria = (b.getAttribute('aria-label') || '').toLowerCase();
+          return t.includes('suivant') || t.includes('next') || aria.includes('suivant') || aria.includes('next');
+        });
+        if (next) {
+          next.click();
+          return true;
+        }
+        return false;
+      });
+
+      if (nextBtnClicked) {
         await sleep(5000);
       } else {
-        console.log("🛑 Fin des résultats de recherche.");
+        console.log("🛑 Fin des résultats de recherche ou impossible de trouver le bouton Suivant.");
         break;
       }
     }
