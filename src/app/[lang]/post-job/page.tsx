@@ -41,7 +41,6 @@ export default function PostJob(props: { params: Promise<{ lang: string }> }) {
             <li><strong>{dict.featured.f1}</strong></li>
             <li>{dict.featured.f2}</li>
             <li>{dict.featured.f3}</li>
-            <li>{dict.featured.f4}</li>
           </ul>
           <Link href="https://buy.stripe.com/9B6bJ10Pt6AA5Ra1iUbjW00" target="_blank">
             <button className="apply-btn" style={{ width: '100%', padding: '15px' }}>Post Featured</button>
