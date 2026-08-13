@@ -2,6 +2,7 @@ import Link from "next/link";
 import JobList from "@/components/JobList";
 import JobCard from "@/components/JobCard";
 import AffiliateCard from "@/components/AffiliateCard";
+import NewsletterSignup from "@/components/NewsletterSignup";
 import { dictionaries, Locale } from "../../i18n/dictionaries";
 import { getEligibleCategories, formatCategoryLabel } from "@/lib/pseo";
 
@@ -58,6 +59,8 @@ export default async function Home(props: { params: Promise<{ lang: string }> })
       </div>
 
       <JobList lang={lang} />
+
+      <NewsletterSignup heading={dict.newsletter.heading} subtext={dict.newsletter.subtext} />
 
       <AffiliateCard heading={dict.affiliates.heading} page="home" />
     </main>

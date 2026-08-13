@@ -32,6 +32,10 @@ export const dictionaries = {
     },
     categoriesNav: {
       heading: "Browse remote jobs by category"
+    },
+    newsletter: {
+      heading: "Get new remote AI jobs by email",
+      subtext: "A digest of new remote AI & ML jobs. No spam, unsubscribe anytime."
     }
   },
   fr: {
@@ -67,6 +71,10 @@ export const dictionaries = {
     },
     categoriesNav: {
       heading: "Parcourir les emplois par catégorie"
+    },
+    newsletter: {
+      heading: "Recevez les nouvelles offres IA par email",
+      subtext: "Une sélection des nouvelles offres remote IA & ML. Pas de spam, désabonnement à tout moment."
     }
   },
   de: {
@@ -102,6 +110,10 @@ export const dictionaries = {
     },
     categoriesNav: {
       heading: "Remote-Jobs nach Kategorie durchsuchen"
+    },
+    newsletter: {
+      heading: "Neue Remote-KI-Jobs per E-Mail erhalten",
+      subtext: "Eine Auswahl neuer Remote-KI- & ML-Jobs. Kein Spam, jederzeit abbestellbar."
     }
   },
   es: {
@@ -137,6 +149,10 @@ export const dictionaries = {
     },
     categoriesNav: {
       heading: "Explorar empleos remotos por categoría"
+    },
+    newsletter: {
+      heading: "Recibe nuevas ofertas remotas de IA por email",
+      subtext: "Una selección de nuevas ofertas remotas de IA y ML. Sin spam, cancela cuando quieras."
     }
   }
 };
