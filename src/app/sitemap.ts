@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 import jobsData from '../../data/jobs.json';
 import postsData from '../../data/posts.json';
-import { getEligibleCategories, getEligibleZonesForCategory } from '../lib/pseo';
+import { getEligibleCategories, getEligibleZonesForCategory, getAllJobs } from '../lib/pseo';
 export default function sitemap(): MetadataRoute.Sitemap {
   const tags = new Set<string>();
   jobsData.jobs.forEach(job => {
@@ -33,6 +33,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
+  const jobUrls = getAllJobs().map(job => ({
+    url: `https://remote-ai-jobs-rust.vercel.app/en/jobs/${job.id}`,
+    lastModified: job.postedAtISO ? new Date(job.postedAtISO) : new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.6,
+  }));
+
   const blogUrls = postsData.posts.map(post => ({
     url: `https://remote-ai-jobs-rust.vercel.app/en/blog/${post.slug}`,
     lastModified: new Date(post.date),
@@ -62,6 +69,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoryUrls,
     ...remoteJobsCategoryUrls,
     ...remoteJobsZoneUrls,
+    ...jobUrls,
     ...blogUrls
   ]
 }

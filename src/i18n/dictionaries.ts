@@ -29,6 +29,9 @@ export const dictionaries = {
     },
     affiliates: {
       heading: "Recommended tools for your job search"
+    },
+    categoriesNav: {
+      heading: "Browse remote jobs by category"
     }
   },
   fr: {
@@ -61,6 +64,9 @@ export const dictionaries = {
     },
     affiliates: {
       heading: "Outils recommandés pour votre recherche d'emploi"
+    },
+    categoriesNav: {
+      heading: "Parcourir les emplois par catégorie"
     }
   },
   de: {
@@ -93,6 +99,9 @@ export const dictionaries = {
     },
     affiliates: {
       heading: "Empfohlene Tools für deine Jobsuche"
+    },
+    categoriesNav: {
+      heading: "Remote-Jobs nach Kategorie durchsuchen"
     }
   },
   es: {
@@ -125,6 +134,9 @@ export const dictionaries = {
     },
     affiliates: {
       heading: "Herramientas recomendadas para tu búsqueda de empleo"
+    },
+    categoriesNav: {
+      heading: "Explorar empleos remotos por categoría"
     }
   }
 };

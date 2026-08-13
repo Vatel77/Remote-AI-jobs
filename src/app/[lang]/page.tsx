@@ -1,12 +1,15 @@
+import Link from "next/link";
 import JobList from "@/components/JobList";
 import JobCard from "@/components/JobCard";
 import AffiliateCard from "@/components/AffiliateCard";
 import { dictionaries, Locale } from "../../i18n/dictionaries";
+import { getEligibleCategories, formatCategoryLabel } from "@/lib/pseo";
 
 export default async function Home(props: { params: Promise<{ lang: string }> }) {
   const params = await props.params;
   const lang = (params.lang as Locale) || 'en';
   const dict = dictionaries[lang] || dictionaries['en'];
+  const categories = getEligibleCategories();
 
   const dummyFeaturedJob = {
     id: "featured-1",
@@ -27,6 +30,19 @@ export default async function Home(props: { params: Promise<{ lang: string }> })
         <p>{dict.hero.subtitle}</p>
       </section>
       
+      {categories.length > 0 && (
+        <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+          <p style={{ color: 'var(--text-muted)', marginBottom: '12px', fontSize: '0.9rem' }}>{dict.categoriesNav.heading}</p>
+          <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', justifyContent: 'center' }}>
+            {categories.map(category => (
+              <Link key={category} href={`/${lang}/remote-jobs/${category}`}>
+                <span className="tag ai">{formatCategoryLabel(category)}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div className="social-proof">
         <p>{dict.socialProof.title}</p>
         <div className="logos">

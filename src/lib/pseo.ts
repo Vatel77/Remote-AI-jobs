@@ -8,6 +8,7 @@ export type Job = {
   salary: string;
   tags: string[];
   postedAt: string;
+  postedAtISO?: string;
   url: string;
 };
 
@@ -73,7 +74,7 @@ export function getZoneLabel(slug: string): string {
 
 // The scraper tags every job with its category label (see CATEGORY_LABELS
 // above); find the tag that matches our known vocabulary.
-function jobCategory(job: Job): string | null {
+export function jobCategory(job: Job): string | null {
   for (const tag of job.tags) {
     const slug = slugify(tag);
     if (CATEGORY_LABELS[slug]) return slug;
@@ -81,8 +82,16 @@ function jobCategory(job: Job): string | null {
   return null;
 }
 
-function jobZones(job: Job): string[] {
+export function jobZones(job: Job): string[] {
   return getZoneSlugsForLocation(job.location);
+}
+
+export function getJobById(id: string): Job | undefined {
+  return allJobs.find(job => job.id === id);
+}
+
+export function getAllJobs(): Job[] {
+  return allJobs;
 }
 
 export function getJobsForCategory(category: string): Job[] {

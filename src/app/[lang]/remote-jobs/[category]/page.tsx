@@ -30,6 +30,11 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   return {
     title: `Remote ${label} Jobs - 100% Remote`,
     description: `Browse ${count} remote ${label} jobs. Curated 100% remote opportunities, updated daily.`,
+    alternates: {
+      types: {
+        'application/rss+xml': [{ url: `/remote-jobs/${category}/rss.xml`, title: `RemoteAI Jobs — Remote ${label} Jobs` }],
+      },
+    },
   };
 }
 

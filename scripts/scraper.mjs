@@ -106,9 +106,9 @@ function normalizeRemotiveJob(job) {
     salary: job.salary || 'Competitive',
     tags: buildTags(job.title, categoryLabel),
     postedAt: timeSince(job.publication_date),
+    postedAtISO: job.publication_date || new Date().toISOString(),
     url: job.url,
     _text: `${job.title} ${job.description || ''}`,
-    _publishedISO: job.publication_date || new Date().toISOString(),
   };
 }
 
@@ -171,9 +171,9 @@ function normalizeJobicyJob(job) {
     salary: formatJobicySalary(job),
     tags: buildTags(job.jobTitle, categoryLabel),
     postedAt: timeSince(job.pubDate),
+    postedAtISO: job.pubDate || new Date().toISOString(),
     url: job.url,
     _text: `${job.jobTitle} ${job.jobExcerpt || ''}`,
-    _publishedISO: job.pubDate || new Date().toISOString(),
   };
 }
 
@@ -196,7 +196,13 @@ function loadExisting() {
 function loadMeta() {
   if (!fs.existsSync(META_PATH)) return {};
   try {
-    return JSON.parse(fs.readFileSync(META_PATH, 'utf-8'));
+    const raw = JSON.parse(fs.readFileSync(META_PATH, 'utf-8'));
+    const migrated = {};
+    for (const [id, value] of Object.entries(raw)) {
+      // Migrate the old { lastSeen, publishedAt } shape to a plain ISO string.
+      migrated[id] = typeof value === 'string' ? value : value?.lastSeen;
+    }
+    return migrated;
   } catch {
     return {};
   }
@@ -226,7 +232,7 @@ async function runScraper() {
 
   const freshById = new Map(freshCandidates.map(job => [job.id, job]));
   freshById.forEach((job, id) => {
-    meta[id] = { lastSeen: now.toISOString(), publishedAt: job._publishedISO };
+    meta[id] = now.toISOString();
   });
 
   const existing = loadExisting();
@@ -238,9 +244,11 @@ async function runScraper() {
       // No bookkeeping yet for this id (first run, or meta got reset) — treat
       // it as just seen instead of infinitely old, so it gets one full
       // retention window rather than being dropped immediately.
-      meta[job.id] = { lastSeen: now.toISOString(), publishedAt: now.toISOString() };
+      meta[job.id] = now.toISOString();
     }
-    const ageDays = (now - new Date(meta[job.id].lastSeen)) / (1000 * 60 * 60 * 24);
+    // Backfill postedAtISO for jobs written before this field existed.
+    if (!job.postedAtISO) job.postedAtISO = meta[job.id];
+    const ageDays = (now - new Date(meta[job.id])) / (1000 * 60 * 60 * 24);
     if (ageDays <= ORPHAN_RETENTION_DAYS) {
       combinedById.set(job.id, job);
     } else {
@@ -253,7 +261,7 @@ async function runScraper() {
   const byDedupeKey = new Map();
   for (const job of combinedById.values()) {
     const key = dedupeKey(job);
-    const published = new Date(meta[job.id]?.publishedAt || job._publishedISO || now);
+    const published = new Date(job.postedAtISO || now);
     const existingEntry = byDedupeKey.get(key);
     if (!existingEntry) {
       byDedupeKey.set(key, { job, published });
@@ -278,7 +286,7 @@ async function runScraper() {
     .slice(0, MAX_JOBS);
 
   // Strip internal-only fields before writing the public jobs.json.
-  finalJobs = finalJobs.map(({ _text, _publishedISO, ...job }) => job);
+  finalJobs = finalJobs.map(({ _text, ...job }) => job);
 
   // Prune meta entries for jobs that didn't make the final cut.
   const finalIds = new Set(finalJobs.map(job => job.id));

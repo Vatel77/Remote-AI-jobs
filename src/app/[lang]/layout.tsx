@@ -5,6 +5,7 @@ import Link from "next/link";
 import { dictionaries, Locale } from "../../i18n/dictionaries";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -14,6 +15,11 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "RemoteAI Jobs | Premium AI & Remote Opportunities",
   description: "Find the best 100% remote jobs in the Artificial Intelligence industry.",
+  alternates: {
+    types: {
+      'application/rss+xml': [{ url: '/rss.xml', title: 'RemoteAI Jobs — All Remote AI Jobs' }],
+    },
+  },
 };
 
 export async function generateStaticParams() {
@@ -50,6 +56,7 @@ export default async function RootLayout(props: {
           {props.children}
         </div>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
