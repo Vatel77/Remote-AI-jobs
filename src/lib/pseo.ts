@@ -22,19 +22,40 @@ export const ZONES: Zone[] = [
   { slug: 'worldwide', label: 'Worldwide', keywords: ['worldwide'] },
   { slug: 'usa', label: 'USA', keywords: ['usa', 'united states'] },
   { slug: 'canada', label: 'Canada', keywords: ['canada'] },
-  { slug: 'europe', label: 'Europe', keywords: ['europe', 'uk', 'united kingdom', 'germany', 'france', 'spain', 'italy', 'netherlands', 'ireland', 'portugal', 'poland'] },
+  { slug: 'europe', label: 'Europe', keywords: ['europe', 'emea', 'uk', 'united kingdom', 'germany', 'france', 'spain', 'italy', 'netherlands', 'ireland', 'portugal', 'poland'] },
   { slug: 'latam', label: 'LATAM', keywords: ['latam', 'latin america', 'brazil', 'mexico', 'argentina', 'uruguay', 'colombia', 'chile', 'peru'] },
   { slug: 'apac', label: 'APAC', keywords: ['asia', 'oceania', 'australia', 'apac', 'india', 'japan', 'singapore', 'new zealand'] },
   { slug: 'africa', label: 'Africa', keywords: ['africa'] },
 ];
 
-// Job urls follow Remotive's own pattern: https://remotive.com/remote-jobs/{category}/{slug}
-export function getCategorySlug(url: string): string | null {
-  const match = url.match(/\/remote-jobs\/([a-z0-9-]+)\//i);
-  return match ? match[1].toLowerCase() : null;
+// Canonical category vocabulary. Must stay in sync with CATEGORY_LABELS in
+// scripts/scraper.mjs, which tags every scraped job with one of these labels
+// regardless of source, so category detection here doesn't depend on any
+// one source's URL shape.
+const CATEGORY_LABELS: Record<string, string> = {
+  'sales': 'Sales',
+  'information-technology': 'Information Technology',
+  'customer-service': 'Customer Service',
+  'writing': 'Writing',
+  'design': 'Design',
+  'data-and-analytics': 'Data and Analytics',
+  'all-others': 'All others',
+  'medical': 'Medical',
+  'software-development': 'Software Development',
+  'marketing': 'Marketing',
+  'devops': 'Devops',
+};
+
+function slugify(str: string): string {
+  return str
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 }
 
 export function formatCategoryLabel(slug: string): string {
+  if (CATEGORY_LABELS[slug]) return CATEGORY_LABELS[slug];
   return slug
     .split('-')
     .map(w => w.charAt(0).toUpperCase() + w.slice(1))
@@ -50,8 +71,14 @@ export function getZoneLabel(slug: string): string {
   return ZONES.find(z => z.slug === slug)?.label ?? formatCategoryLabel(slug);
 }
 
+// The scraper tags every job with its category label (see CATEGORY_LABELS
+// above); find the tag that matches our known vocabulary.
 function jobCategory(job: Job): string | null {
-  return getCategorySlug(job.url);
+  for (const tag of job.tags) {
+    const slug = slugify(tag);
+    if (CATEGORY_LABELS[slug]) return slug;
+  }
+  return null;
 }
 
 function jobZones(job: Job): string[] {

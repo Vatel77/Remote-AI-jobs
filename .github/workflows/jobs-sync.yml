@@ -1,0 +1,30 @@
+name: Sync Remote Jobs
+
+on:
+  schedule:
+    # Runs daily at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  sync-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run job scraper (Remotive + Jobicy)
+        run: node scripts/scraper.mjs
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'Jobs Sync Bot'
+          git config --global user.email 'bot@remote-ai-jobs.com'
+          git add data/jobs.json data/jobs-meta.json
+          git commit -m "🔄 Sync remote AI jobs (Remotive + Jobicy)" || echo "No changes to commit"
+          git push
