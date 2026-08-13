@@ -11,7 +11,7 @@ const AI_KEYWORDS = ['ai', 'artificial intelligence', 'machine learning', 'ml', 
 async function fetchRemotiveJobs() {
   console.log("Fetching jobs from Remotive API...");
   try {
-    const response = await fetch('https://remotive.com/api/remote-jobs?category=software-dev');
+    const response = await fetch('https://remotive.com/api/remote-jobs');
     const data = await response.json();
     return data.jobs || [];
   } catch (error) {
@@ -20,9 +20,14 @@ async function fetchRemotiveJobs() {
   }
 }
 
+const AI_KEYWORD_PATTERNS = AI_KEYWORDS.map(keyword => {
+  const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`\\b${escaped}\\b`);
+});
+
 function isAiJob(job) {
   const text = (job.title + " " + job.description).toLowerCase();
-  return AI_KEYWORDS.some(keyword => text.includes(keyword.toLowerCase()));
+  return AI_KEYWORD_PATTERNS.some(pattern => pattern.test(text));
 }
 
 function timeSince(dateString) {
@@ -37,7 +42,7 @@ function timeSince(dateString) {
 
 async function runScraper() {
   const jobs = await fetchRemotiveJobs();
-  console.log(`Fetched ${jobs.length} remote software jobs.`);
+  console.log(`Fetched ${jobs.length} remote jobs.`);
   
   const aiJobs = jobs.filter(isAiJob);
   console.log(`Filtered down to ${aiJobs.length} AI-related jobs.`);
