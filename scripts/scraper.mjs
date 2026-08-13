@@ -10,9 +10,15 @@ const META_PATH = path.join(__dirname, '..', 'data', 'jobs-meta.json');
 
 // A job not re-observed in any source fetch for this many days is considered
 // closed/expired and is dropped from the accumulated set.
-const ORPHAN_RETENTION_DAYS = 30;
+const ORPHAN_RETENTION_DAYS = 45;
 // Hard ceiling so the accumulated file can't grow forever.
 const MAX_JOBS = 300;
+// Guard against publishing a broken scrape (e.g. a source's API changed
+// shape and returns nothing): don't write jobs.json if the total drops by
+// more than this fraction versus last run. Only armed once we have a
+// meaningful baseline, so normal day-to-day churn on a small dataset never
+// trips it.
+const VOLUME_DROP_GUARD = { minBaseline: 15, maxDropFraction: 0.3 };
 
 // Keywords to filter AI / Machine Learning jobs, applied to every source.
 const AI_KEYWORDS = ['ai', 'artificial intelligence', 'machine learning', 'ml', 'nlp', 'prompt', 'llm', 'data scientist', 'deep learning', 'pytorch', 'tensorflow'];
@@ -206,6 +212,11 @@ async function runScraper() {
 
   const [remotiveRaw, jobicyRaw] = await Promise.all([fetchRemotiveJobs(), fetchJobicyJobs()]);
   console.log(`Fetched ${remotiveRaw.length} Remotive jobs, ${jobicyRaw.length} Jobicy jobs.`);
+  // A single source returning nothing is often a transient blip (rate limit,
+  // brief outage) — log it, but don't fail the run over one bad day. The
+  // volume-drop guard below is what catches a source staying broken.
+  if (remotiveRaw.length === 0) console.warn('WARNING: Remotive returned 0 jobs this run.');
+  if (jobicyRaw.length === 0) console.warn('WARNING: Jobicy returned 0 jobs this run.');
 
   const freshCandidates = [
     ...remotiveRaw.map(normalizeRemotiveJob),
@@ -274,6 +285,17 @@ async function runScraper() {
   Object.keys(meta).forEach(id => {
     if (!finalIds.has(id)) delete meta[id];
   });
+
+  const previousCount = existing.length;
+  const { minBaseline, maxDropFraction } = VOLUME_DROP_GUARD;
+  if (previousCount >= minBaseline && finalJobs.length < previousCount * (1 - maxDropFraction)) {
+    console.error(
+      `ABORTING: job count dropped from ${previousCount} to ${finalJobs.length} ` +
+      `(more than ${maxDropFraction * 100}%). Not writing data/jobs.json — a source is likely broken. ` +
+      `Check the Remotive/Jobicy fetch logs above.`
+    );
+    process.exit(1);
+  }
 
   fs.writeFileSync(JOBS_PATH, JSON.stringify({ jobs: finalJobs }, null, 2));
   fs.writeFileSync(META_PATH, JSON.stringify(meta, null, 2));
