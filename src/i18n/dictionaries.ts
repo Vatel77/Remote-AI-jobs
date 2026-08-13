@@ -18,6 +18,14 @@ export const dictionaries = {
       title: "Remote {tag} Jobs",
       subtitle: "Showing {count} remote opportunities for {tag} professionals.",
       empty: "No jobs found for this category at the moment."
+    },
+    remoteJobs: {
+      title: "Remote {category} Jobs",
+      subtitle: "Showing {count} remote {category} opportunities.",
+      titleZone: "Remote {category} Jobs in {zone}",
+      subtitleZone: "Showing {count} remote {category} opportunities open to candidates in {zone}.",
+      browseByLocation: "Browse by location",
+      backToCategory: "Back to all {category} jobs"
     }
   },
   fr: {
@@ -39,6 +47,14 @@ export const dictionaries = {
       title: "Emplois {tag} en Télétravail",
       subtitle: "Affichage de {count} opportunités 100% à distance pour les profils {tag}.",
       empty: "Aucun emploi trouvé pour cette catégorie actuellement."
+    },
+    remoteJobs: {
+      title: "Emplois {category} en Télétravail",
+      subtitle: "Affichage de {count} opportunités 100% à distance en {category}.",
+      titleZone: "Emplois {category} en Télétravail — {zone}",
+      subtitleZone: "Affichage de {count} opportunités {category} ouvertes aux candidats en {zone}.",
+      browseByLocation: "Parcourir par zone géographique",
+      backToCategory: "Retour à tous les emplois {category}"
     }
   },
   de: {
@@ -60,6 +76,14 @@ export const dictionaries = {
       title: "Remote {tag} Jobs",
       subtitle: "Zeige {count} Remote-Möglichkeiten für {tag}-Profis.",
       empty: "Derzeit keine Jobs in dieser Kategorie gefunden."
+    },
+    remoteJobs: {
+      title: "Remote {category} Jobs",
+      subtitle: "Zeige {count} Remote-Möglichkeiten in {category}.",
+      titleZone: "Remote {category} Jobs in {zone}",
+      subtitleZone: "Zeige {count} Remote-{category}-Möglichkeiten für Kandidaten in {zone}.",
+      browseByLocation: "Nach Region durchsuchen",
+      backToCategory: "Zurück zu allen {category} Jobs"
     }
   },
   es: {
@@ -81,6 +105,14 @@ export const dictionaries = {
       title: "Trabajos Remotos en {tag}",
       subtitle: "Mostrando {count} oportunidades remotas para profesionales de {tag}.",
       empty: "No se encontraron trabajos para esta categoría por el momento."
+    },
+    remoteJobs: {
+      title: "Trabajos Remotos en {category}",
+      subtitle: "Mostrando {count} oportunidades remotas en {category}.",
+      titleZone: "Trabajos Remotos en {category} — {zone}",
+      subtitleZone: "Mostrando {count} oportunidades de {category} abiertas a candidatos en {zone}.",
+      browseByLocation: "Explorar por región",
+      backToCategory: "Volver a todos los trabajos de {category}"
     }
   }
 };
