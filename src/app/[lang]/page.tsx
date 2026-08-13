@@ -1,5 +1,6 @@
 import JobList from "@/components/JobList";
 import JobCard from "@/components/JobCard";
+import AffiliateCard from "@/components/AffiliateCard";
 import { dictionaries, Locale } from "../../i18n/dictionaries";
 
 export default async function Home(props: { params: Promise<{ lang: string }> }) {
@@ -41,6 +42,8 @@ export default async function Home(props: { params: Promise<{ lang: string }> })
       </div>
 
       <JobList lang={lang} />
+
+      <AffiliateCard heading={dict.affiliates.heading} page="home" />
     </main>
   );
 }

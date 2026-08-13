@@ -26,6 +26,9 @@ export const dictionaries = {
       subtitleZone: "Showing {count} remote {category} opportunities open to candidates in {zone}.",
       browseByLocation: "Browse by location",
       backToCategory: "Back to all {category} jobs"
+    },
+    affiliates: {
+      heading: "Recommended tools for your job search"
     }
   },
   fr: {
@@ -55,6 +58,9 @@ export const dictionaries = {
       subtitleZone: "Affichage de {count} opportunités {category} ouvertes aux candidats en {zone}.",
       browseByLocation: "Parcourir par zone géographique",
       backToCategory: "Retour à tous les emplois {category}"
+    },
+    affiliates: {
+      heading: "Outils recommandés pour votre recherche d'emploi"
     }
   },
   de: {
@@ -84,6 +90,9 @@ export const dictionaries = {
       subtitleZone: "Zeige {count} Remote-{category}-Möglichkeiten für Kandidaten in {zone}.",
       browseByLocation: "Nach Region durchsuchen",
       backToCategory: "Zurück zu allen {category} Jobs"
+    },
+    affiliates: {
+      heading: "Empfohlene Tools für deine Jobsuche"
     }
   },
   es: {
@@ -113,6 +122,9 @@ export const dictionaries = {
       subtitleZone: "Mostrando {count} oportunidades de {category} abiertas a candidatos en {zone}.",
       browseByLocation: "Explorar por región",
       backToCategory: "Volver a todos los trabajos de {category}"
+    },
+    affiliates: {
+      heading: "Herramientas recomendadas para tu búsqueda de empleo"
     }
   }
 };

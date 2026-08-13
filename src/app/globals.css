@@ -320,3 +320,49 @@ a {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+/* Affiliate strip */
+.affiliate-strip {
+  margin: 50px 0;
+  padding-top: 30px;
+  border-top: 1px solid var(--border-color);
+}
+.affiliate-strip-heading {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+.affiliate-strip-cards {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.affiliate-card {
+  flex: 1 1 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 18px;
+  transition: border-color 0.2s;
+}
+.affiliate-card:hover {
+  border-color: var(--accent-color);
+}
+.affiliate-card-name {
+  font-weight: 700;
+}
+.affiliate-card-tagline {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+.affiliate-card-cta {
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 8px;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import JobCard from '@/components/JobCard';
+import AffiliateCard from '@/components/AffiliateCard';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { dictionaries, Locale } from '../../../../i18n/dictionaries';
@@ -36,7 +37,8 @@ export default async function CategoryHubPage(props: Props) {
   const params = await props.params;
   const category = decodeURIComponent(params.category).toLowerCase();
   const lang = (params.lang as Locale) || 'en';
-  const dict = (dictionaries[lang] || dictionaries['en']).remoteJobs;
+  const fullDict = dictionaries[lang] || dictionaries['en'];
+  const dict = fullDict.remoteJobs;
 
   const jobs = getJobsForCategory(category);
   const label = formatCategoryLabel(category);
@@ -65,6 +67,8 @@ export default async function CategoryHubPage(props: Props) {
       <div className="job-list">
         {jobs.map(job => <JobCard key={job.id} job={job} lang={lang} />)}
       </div>
+
+      <AffiliateCard heading={fullDict.affiliates.heading} page={`remote-jobs/${category}`} />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import TrackedOutboundLink from './TrackedOutboundLink';
 
 export type Job = {
   id: string;
@@ -49,12 +50,17 @@ export default function JobCard({ job, lang = 'en' }: { job: Job, lang?: string 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="job-info">
-        <Link href={job.url} target="_blank">
+        <TrackedOutboundLink
+          href={job.url}
+          target="_blank"
+          eventName="Job Click"
+          eventProps={{ jobId: job.id, company: job.company, source: job.id.split('-')[0], clickSource: 'title' }}
+        >
           <h3>
             {job.title}
             {job.isFeatured && <span className="featured-badge">PROMOTED</span>}
           </h3>
-        </Link>
+        </TrackedOutboundLink>
         <div className="job-company">
           <strong>{job.company}</strong>
           <span>•</span>
@@ -78,9 +84,14 @@ export default function JobCard({ job, lang = 'en' }: { job: Job, lang?: string 
       <div className="job-meta">
         <div className="job-salary">{job.salary}</div>
         <div className="job-time">{job.postedAt}</div>
-        <Link href={job.url} target="_blank">
+        <TrackedOutboundLink
+          href={job.url}
+          target="_blank"
+          eventName="Job Click"
+          eventProps={{ jobId: job.id, company: job.company, source: job.id.split('-')[0], clickSource: 'apply_button' }}
+        >
           <button className="apply-btn">Apply Now</button>
-        </Link>
+        </TrackedOutboundLink>
       </div>
     </div>
   );
