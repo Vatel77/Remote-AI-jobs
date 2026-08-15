@@ -11,9 +11,48 @@ if (!API_KEY) {
 
 const POSTS_PATH = path.join(process.cwd(), 'data', 'posts.json');
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// Gemini occasionally returns a transient "model is currently experiencing
+// high demand" / UNAVAILABLE / RESOURCE_EXHAUSTED error that clears up on
+// its own within seconds — retry those instead of failing the whole run.
+// Anything else (bad request, invalid key, model not found) fails fast.
+function isRetryable(status, errorBody) {
+  if ([429, 500, 502, 503, 504].includes(status)) return true;
+  const code = errorBody?.error?.status;
+  return code === 'UNAVAILABLE' || code === 'RESOURCE_EXHAUSTED';
+}
+
+async function callGeminiWithRetry(prompt, maxAttempts = 3) {
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${API_KEY}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }]
+      })
+    });
+
+    const data = await response.json();
+
+    if (!data.error) return data;
+
+    if (attempt < maxAttempts && isRetryable(response.status, data)) {
+      const delayMs = attempt * 10000; // 10s, then 20s
+      console.warn(`Gemini call failed (attempt ${attempt}/${maxAttempts}): ${data.error.message} — retrying in ${delayMs / 1000}s...`);
+      await sleep(delayMs);
+      continue;
+    }
+
+    throw new Error(data.error.message);
+  }
+}
+
 async function generateBlogPost() {
   console.log("Connecting to Gemini API...");
-  
+
   const prompt = `
     You are an expert tech recruiter and AI blogger.
     Write a highly engaging, SEO-optimized blog post about remote AI jobs, salaries, or career advice.
@@ -29,19 +68,7 @@ async function generateBlogPost() {
   `;
 
   try {
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${API_KEY}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }]
-      })
-    });
-
-    const data = await response.json();
-    
-    if (data.error) {
-      throw new Error(data.error.message);
-    }
+    const data = await callGeminiWithRetry(prompt);
 
     const rawText = data.candidates[0].content.parts[0].text.trim();
     
