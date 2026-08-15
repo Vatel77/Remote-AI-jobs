@@ -27,26 +27,39 @@ function isRetryable(status, errorBody) {
 
 async function callGeminiWithRetry(prompt, maxAttempts = 3) {
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${API_KEY}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }]
-      })
-    });
+    let outcome;
+    try {
+      // undici's default headers timeout is 5 minutes — way too long to sit
+      // on a hung connection before even getting to retry. Fail fast instead.
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${API_KEY}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }]
+        }),
+        signal: AbortSignal.timeout(60000),
+      });
+      const data = await response.json();
+      outcome = data.error
+        ? { ok: false, retryable: isRetryable(response.status, data), message: data.error.message }
+        : { ok: true, data };
+    } catch (err) {
+      // Network-level failures (fetch throwing, DNS, connection reset, our
+      // own 60s timeout aborting) never produce an HTTP response, so they
+      // can't go through isRetryable(status, data) — always retryable.
+      outcome = { ok: false, retryable: true, message: err.message };
+    }
 
-    const data = await response.json();
+    if (outcome.ok) return outcome.data;
 
-    if (!data.error) return data;
-
-    if (attempt < maxAttempts && isRetryable(response.status, data)) {
+    if (outcome.retryable && attempt < maxAttempts) {
       const delayMs = attempt * 10000; // 10s, then 20s
-      console.warn(`Gemini call failed (attempt ${attempt}/${maxAttempts}): ${data.error.message} — retrying in ${delayMs / 1000}s...`);
+      console.warn(`Gemini call failed (attempt ${attempt}/${maxAttempts}): ${outcome.message} — retrying in ${delayMs / 1000}s...`);
       await sleep(delayMs);
       continue;
     }
 
-    throw new Error(data.error.message);
+    throw new Error(outcome.message);
   }
 }
 
