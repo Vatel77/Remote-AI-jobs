@@ -39,4 +39,14 @@ jobs:
           git config --global user.email 'bot@remote-ai-jobs.com'
           git add data/jobs.json data/jobs-meta.json
           git commit -m "🔄 Sync remote AI jobs (Remotive + Jobicy)" || echo "No changes to commit"
-          git push
+
+          # main can move between checkout and push (a manual re-run, or the
+          # other scheduled workflow, landing a commit in between) — rebase
+          # onto the latest main and retry instead of failing outright.
+          for i in 1 2 3; do
+            git push && exit 0
+            echo "Push rejected (attempt $i/3) — rebasing onto latest main and retrying..."
+            git pull --rebase origin main
+          done
+          echo "Push still failing after retries."
+          exit 1
