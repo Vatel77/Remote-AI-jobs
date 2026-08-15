@@ -6,6 +6,9 @@ on:
     - cron: '0 8 */2 * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
+permissions:
+  contents: write # needed to commit + push data/posts.json
+
 jobs:
   generate-post:
     runs-on: ubuntu-latest
