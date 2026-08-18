@@ -25,13 +25,18 @@ function isRetryable(status, errorBody) {
   return code === 'UNAVAILABLE' || code === 'RESOURCE_EXHAUSTED';
 }
 
-async function callGeminiWithRetry(prompt, maxAttempts = 3) {
+// Try the newest flash model first; fall back to the previous generation if
+// it's under sustained load rather than giving up (gemini-3.7-flash is on
+// introductory pricing, which tends to draw heavy traffic).
+const MODEL_FALLBACKS = ['gemini-3.7-flash', 'gemini-3.6-flash'];
+
+async function callGeminiWithRetry(prompt, model, maxAttempts = 3) {
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     let outcome;
     try {
       // undici's default headers timeout is 5 minutes — way too long to sit
       // on a hung connection before even getting to retry. Fail fast instead.
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${API_KEY}`, {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${API_KEY}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -54,12 +59,29 @@ async function callGeminiWithRetry(prompt, maxAttempts = 3) {
 
     if (outcome.retryable && attempt < maxAttempts) {
       const delayMs = attempt * 10000; // 10s, then 20s
-      console.warn(`Gemini call failed (attempt ${attempt}/${maxAttempts}): ${outcome.message} — retrying in ${delayMs / 1000}s...`);
+      console.warn(`Gemini call failed (attempt ${attempt}/${maxAttempts}, ${model}): ${outcome.message} — retrying in ${delayMs / 1000}s...`);
       await sleep(delayMs);
       continue;
     }
 
-    throw new Error(outcome.message);
+    const err = new Error(outcome.message);
+    err.retryable = outcome.retryable;
+    throw err;
+  }
+}
+
+async function callGeminiWithFallback(prompt) {
+  for (let i = 0; i < MODEL_FALLBACKS.length; i++) {
+    const model = MODEL_FALLBACKS[i];
+    try {
+      return await callGeminiWithRetry(prompt, model);
+    } catch (err) {
+      const isLastModel = i === MODEL_FALLBACKS.length - 1;
+      // A non-retryable error (bad request, invalid key, model not found)
+      // will fail identically on every model — no point falling back.
+      if (isLastModel || !err.retryable) throw err;
+      console.warn(`${model} exhausted its retries — falling back to ${MODEL_FALLBACKS[i + 1]}...`);
+    }
   }
 }
 
@@ -81,7 +103,7 @@ async function generateBlogPost() {
   `;
 
   try {
-    const data = await callGeminiWithRetry(prompt);
+    const data = await callGeminiWithFallback(prompt);
 
     const rawText = data.candidates[0].content.parts[0].text.trim();
     
