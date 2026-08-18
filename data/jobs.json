@@ -1,6 +1,276 @@
 {
   "jobs": [
     {
+      "id": "jobicy-149399",
+      "title": "Senior Data Scientist, Innovation Lab",
+      "company": "Experian",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Data and Analytics",
+        "Data"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-18T02:45:01+00:00",
+      "url": "https://jobicy.com/jobs/149399-senior-data-scientist-innovation-lab"
+    },
+    {
+      "id": "jobicy-150940",
+      "title": "Customer Success Manager II - Enterprise (Central/East)",
+      "company": "Smartsheet",
+      "location": "USA",
+      "salary": "USD 85,000 - 115,000/yearly",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-17T14:34:19+00:00",
+      "url": "https://jobicy.com/jobs/150940-customer-success-manager-ii-enterprise-central-east-2"
+    },
+    {
+      "id": "jobicy-150939",
+      "title": "Senior Technical Customer Support Engineer",
+      "company": "Clickhouse",
+      "location": "USA",
+      "salary": "USD 155,000 - 194,000/yearly",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-17T14:34:17+00:00",
+      "url": "https://jobicy.com/jobs/150939-senior-technical-customer-support-engineer"
+    },
+    {
+      "id": "jobicy-150936",
+      "title": "Customer Success - Singapore Clients",
+      "company": "Sleek",
+      "location": "Philippines",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-17T14:30:23+00:00",
+      "url": "https://jobicy.com/jobs/150936-customer-success-singapore-clients"
+    },
+    {
+      "id": "jobicy-150935",
+      "title": "Customer Engineer, APAC",
+      "company": "Cresta",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-17T14:30:22+00:00",
+      "url": "https://jobicy.com/jobs/150935-customer-engineer-apac"
+    },
+    {
+      "id": "jobicy-150930",
+      "title": "Senior Machine Learning Engineer",
+      "company": "Sona",
+      "location": "Europe, UK",
+      "salary": "GBP 95,000 - 110,000/yearly",
+      "tags": [
+        "Remote",
+        "Data and Analytics",
+        "Machine Learning"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-17T14:17:13+00:00",
+      "url": "https://jobicy.com/jobs/150930-senior-machine-learning-engineer"
+    },
+    {
+      "id": "jobicy-150929",
+      "title": "Site Engineer",
+      "company": "Vercel",
+      "location": "USA",
+      "salary": "USD 196,000 - 294,000/yearly",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-17T14:14:18+00:00",
+      "url": "https://jobicy.com/jobs/150929-site-engineer"
+    },
+    {
+      "id": "jobicy-150925",
+      "title": "Data Analyst, Value-Based Care Analytics",
+      "company": "Clover Health",
+      "location": "USA",
+      "salary": "USD 96,000 - 125,000/yearly",
+      "tags": [
+        "Remote",
+        "Data and Analytics",
+        "Data"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-17T13:37:37+00:00",
+      "url": "https://jobicy.com/jobs/150925-data-analyst-value-based-care-analytics"
+    },
+    {
+      "id": "jobicy-150923",
+      "title": "Data Analyst, Clinical Data Effectiveness",
+      "company": "Clover Health",
+      "location": "USA",
+      "salary": "USD 77,000 - 100,000/yearly",
+      "tags": [
+        "Remote",
+        "Data and Analytics",
+        "Data"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-17T13:37:34+00:00",
+      "url": "https://jobicy.com/jobs/150923-data-analyst-clinical-data-effectiveness"
+    },
+    {
+      "id": "jobicy-150914",
+      "title": "Director, AI Center of Excellence",
+      "company": "Instructure",
+      "location": "USA",
+      "salary": "USD 200,000 - 220,000/yearly",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-17T13:04:17+00:00",
+      "url": "https://jobicy.com/jobs/150914-director-ai-center-of-excellence"
+    },
+    {
+      "id": "jobicy-150907",
+      "title": "Director, Software Engineering (AI Workflows & Ecosystem)",
+      "company": "Jobber",
+      "location": "Canada",
+      "salary": "CAD 221,800 - 300,100/yearly",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-17T13:04:01+00:00",
+      "url": "https://jobicy.com/jobs/150907-director-software-engineering-ai-workflows-ecosystem"
+    },
+    {
+      "id": "jobicy-146611",
+      "title": "Manager, Applications - ADF/ETL/AI",
+      "company": "Molina Healthcare",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-17T05:40:10+00:00",
+      "url": "https://jobicy.com/jobs/146611-manager-applications-adf-etl-ai"
+    },
+    {
+      "id": "jobicy-142198",
+      "title": "Java Backend Engineer (AI/LLM Chatbot, Customer Service)",
+      "company": "Binance",
+      "location": "APAC",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-17T05:40:08+00:00",
+      "url": "https://jobicy.com/jobs/142198-java-backend-engineer-ai-llm-chatbot-customer-service"
+    },
+    {
+      "id": "jobicy-149362",
+      "title": "Vulnerability Operation Center Lead",
+      "company": "Nebius",
+      "location": "Europe",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-17T05:35:04+00:00",
+      "url": "https://jobicy.com/jobs/149362-vulnerability-operation-center-lead"
+    },
+    {
+      "id": "jobicy-149361",
+      "title": "Senior Technical Product Manager, Token Factory",
+      "company": "Nebius",
+      "location": "Europe, Netherlands, UK",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-17T05:35:02+00:00",
+      "url": "https://jobicy.com/jobs/149361-senior-technical-product-manager-token-factory"
+    },
+    {
+      "id": "jobicy-149365",
+      "title": "Offensive Security Lead",
+      "company": "Nebius",
+      "location": "Europe",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-17T05:30:04+00:00",
+      "url": "https://jobicy.com/jobs/149365-offensive-security-lead"
+    },
+    {
+      "id": "jobicy-149377",
+      "title": "Sales Director - Healthcare",
+      "company": "Sierra",
+      "location": "Canada",
+      "salary": "CAD 345,000 - 395,000/yearly",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-17T05:25:07+00:00",
+      "url": "https://jobicy.com/jobs/149377-sales-director-healthcare"
+    },
+    {
+      "id": "jobicy-149376",
+      "title": "Sales Director - Retail",
+      "company": "Sierra",
+      "location": "Canada",
+      "salary": "CAD 345,000 - 395,000/yearly",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-17T05:25:04+00:00",
+      "url": "https://jobicy.com/jobs/149376-sales-director-retail"
+    },
+    {
       "id": "jobicy-150870",
       "title": "Enterprise Account Executive, Iberia",
       "company": "Cresta",
@@ -11,7 +281,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-16T16:47:20+00:00",
       "url": "https://jobicy.com/jobs/150870-enterprise-account-executive-iberia"
     },
@@ -26,7 +296,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-16T16:47:17+00:00",
       "url": "https://jobicy.com/jobs/150869-enterprise-account-executive-emea"
     },
@@ -41,7 +311,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-16T16:47:14+00:00",
       "url": "https://jobicy.com/jobs/150867-enterprise-account-executive-apac"
     },
@@ -56,7 +326,7 @@
         "Customer Service",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-16T16:47:12+00:00",
       "url": "https://jobicy.com/jobs/150866-embedded-ai-expert"
     },
@@ -71,7 +341,7 @@
         "Data and Analytics",
         "Data"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-16T16:47:05+00:00",
       "url": "https://jobicy.com/jobs/150863-data-science-intern-customer-success"
     },
@@ -86,7 +356,7 @@
         "All others",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-16T16:47:02+00:00",
       "url": "https://jobicy.com/jobs/150862-ai-deployment-manager"
     },
@@ -101,7 +371,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-16T16:32:48+00:00",
       "url": "https://jobicy.com/jobs/150851-ai-first-android-engineer"
     },
@@ -116,7 +386,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-16T14:51:59+00:00",
       "url": "https://jobicy.com/jobs/150849-manager-software-engineering-ai-assistant"
     },
@@ -134,6 +404,21 @@
       "postedAt": "Just now",
       "postedAtISO": "2026-08-16T14:51:52+00:00",
       "url": "https://jobicy.com/jobs/150846-software-engineer-3"
+    },
+    {
+      "id": "remotive-1919266",
+      "title": "Senior Independent AI Engineer / Architect",
+      "company": "A.Team",
+      "location": "Americas, Europe, Israel",
+      "salary": "$120 - $170 /hour",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-16T10:09:41",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266"
     },
     {
       "id": "jobicy-146434",
@@ -164,6 +449,21 @@
       "postedAt": "2 days ago",
       "postedAtISO": "2026-08-16T03:10:04+00:00",
       "url": "https://jobicy.com/jobs/146426-principal-strategic-data-center-partnerships"
+    },
+    {
+      "id": "remotive-2091068",
+      "title": "Head of Marketing & Communications",
+      "company": "garden3d",
+      "location": "Worldwide",
+      "salary": "$150k - $230k",
+      "tags": [
+        "Remote",
+        "Marketing",
+        "AI"
+      ],
+      "postedAt": "3 days ago",
+      "postedAtISO": "2026-08-15T19:58:15",
+      "url": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068"
     },
     {
       "id": "jobicy-150820",
@@ -582,7 +882,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "3 days ago",
+      "postedAt": "4 days ago",
       "postedAtISO": "2026-08-14T20:33:39",
       "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
     },
@@ -1408,7 +1708,7 @@
         "Design",
         "AI"
       ],
-      "postedAt": "20 days ago",
+      "postedAt": "21 days ago",
       "postedAtISO": "2026-07-28T14:23:05",
       "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081"
     },
@@ -1423,7 +1723,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "25 days ago",
+      "postedAt": "26 days ago",
       "postedAtISO": "2026-07-23T15:39:28",
       "url": "https://remotive.com/remote-jobs/sales/business-development-representative-2091075"
     },
@@ -1438,39 +1738,9 @@
         "All others",
         "AI"
       ],
-      "postedAt": "25 days ago",
+      "postedAt": "26 days ago",
       "postedAtISO": "2026-07-23T15:37:35",
       "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091074"
-    },
-    {
-      "id": "remotive-1919266",
-      "title": "Senior Independent AI Engineer / Architect",
-      "company": "A.Team",
-      "location": "Americas, Europe, Israel",
-      "salary": "$120 - $170 /hour",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "7/16/2026",
-      "postedAtISO": "2026-07-16T10:10:45",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266"
-    },
-    {
-      "id": "remotive-2091068",
-      "title": "Head of Marketing & Communications",
-      "company": "garden3d",
-      "location": "Worldwide",
-      "salary": "$150k - $230k",
-      "tags": [
-        "Remote",
-        "Marketing",
-        "AI"
-      ],
-      "postedAt": "7/16/2026",
-      "postedAtISO": "2026-07-16T08:06:41",
-      "url": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068"
     },
     {
       "id": "remotive-2091067",
