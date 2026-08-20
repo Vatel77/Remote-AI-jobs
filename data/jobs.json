@@ -1,6 +1,456 @@
 {
   "jobs": [
     {
+      "id": "jobicy-151176",
+      "title": "Sr. Global Payroll Specialist",
+      "company": "Contentstack",
+      "location": "USA",
+      "salary": "USD 110,000 - 120,000/year",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T20:09:35+00:00",
+      "url": "https://jobicy.com/jobs/151176-sr-global-payroll-specialist"
+    },
+    {
+      "id": "jobicy-151175",
+      "title": "SEO/AEO Content Specialist (English Native) — Contract",
+      "company": "Cloudinary",
+      "location": "UK",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T20:08:18+00:00",
+      "url": "https://jobicy.com/jobs/151175-seo-aeo-content-specialist-english-native-contract"
+    },
+    {
+      "id": "jobicy-151171",
+      "title": "SEO Director",
+      "company": "ClickUp",
+      "location": "USA",
+      "salary": "USD 180,000 - 243,000/yearly",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T20:07:13+00:00",
+      "url": "https://jobicy.com/jobs/151171-seo-director"
+    },
+    {
+      "id": "jobicy-151169",
+      "title": "Senior Brand Content Manager",
+      "company": "Demandbase, Inc.",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Marketing",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:31:03+00:00",
+      "url": "https://jobicy.com/jobs/151169-senior-brand-content-manager"
+    },
+    {
+      "id": "jobicy-151167",
+      "title": "Growth Account Director, Enterprise",
+      "company": "Demandbase, Inc.",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Marketing",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:30:58+00:00",
+      "url": "https://jobicy.com/jobs/151167-growth-account-director-enterprise"
+    },
+    {
+      "id": "jobicy-151164",
+      "title": "Director of Product Marketing",
+      "company": "ActiveCampaign",
+      "location": "USA",
+      "salary": "USD 192,400 - 264,600/yearly",
+      "tags": [
+        "Remote",
+        "Marketing",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:30:52+00:00",
+      "url": "https://jobicy.com/jobs/151164-director-of-product-marketing"
+    },
+    {
+      "id": "jobicy-151163",
+      "title": "Enterprise Growth Account Director – Financial Services",
+      "company": "Demandbase, Inc.",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Marketing",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:30:50+00:00",
+      "url": "https://jobicy.com/jobs/151163-enterprise-growth-account-director-financial-services"
+    },
+    {
+      "id": "jobicy-151160",
+      "title": "Director, Revenue Operations",
+      "company": "Qventus",
+      "location": "USA",
+      "salary": "USD 200,000 - 230,000/yearly",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:11:17+00:00",
+      "url": "https://jobicy.com/jobs/151160-director-revenue-operations"
+    },
+    {
+      "id": "jobicy-151158",
+      "title": "Strategic Account Executive (German Speaking)",
+      "company": "Synthesia",
+      "location": "Austria, Germany, Switzerland",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:11:12+00:00",
+      "url": "https://jobicy.com/jobs/151158-strategic-account-executive-german-speaking"
+    },
+    {
+      "id": "jobicy-151157",
+      "title": "Business Development Manager",
+      "company": "Qventus",
+      "location": "USA",
+      "salary": "USD 110,000 - 150,000/yearly",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:11:10+00:00",
+      "url": "https://jobicy.com/jobs/151157-business-development-manager-2"
+    },
+    {
+      "id": "jobicy-151156",
+      "title": "Senior Research Engineer - Voice",
+      "company": "Synthesia",
+      "location": "Europe, UK",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:11:08+00:00",
+      "url": "https://jobicy.com/jobs/151156-senior-research-engineer-voice"
+    },
+    {
+      "id": "jobicy-151154",
+      "title": "AI Tooling Engineer",
+      "company": "Qventus",
+      "location": "USA",
+      "salary": "USD 120,000 - 150,000/yearly",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:11:04+00:00",
+      "url": "https://jobicy.com/jobs/151154-ai-tooling-engineer"
+    },
+    {
+      "id": "jobicy-151152",
+      "title": "Member of the Technical Staff, Internal Agent",
+      "company": "Vercel",
+      "location": "USA",
+      "salary": "USD 208,000 - 312,000/yearly",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:11:00+00:00",
+      "url": "https://jobicy.com/jobs/151152-member-of-the-technical-staff-internal-agent"
+    },
+    {
+      "id": "jobicy-151151",
+      "title": "Senior Applied Research Engineer - Video Team",
+      "company": "Synthesia",
+      "location": "Europe, Germany, Switzerland, UK",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:10:58+00:00",
+      "url": "https://jobicy.com/jobs/151151-senior-applied-research-engineer-video-team"
+    },
+    {
+      "id": "jobicy-151147",
+      "title": "Customer Success Manager",
+      "company": "SOCi",
+      "location": "Canada, USA",
+      "salary": "CAD 70,000 - 100,000/yearly",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:06:13+00:00",
+      "url": "https://jobicy.com/jobs/151147-customer-success-manager-13"
+    },
+    {
+      "id": "jobicy-151142",
+      "title": "Account Executive",
+      "company": "SOCi",
+      "location": "USA",
+      "salary": "USD 80,000 - 90,000/yearly",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T19:06:02+00:00",
+      "url": "https://jobicy.com/jobs/151142-account-executive-4"
+    },
+    {
+      "id": "jobicy-151137",
+      "title": "Freelance Graphic Designer",
+      "company": "Mindrift",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Design",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T18:34:11+00:00",
+      "url": "https://jobicy.com/jobs/151137-freelance-graphic-designer-3"
+    },
+    {
+      "id": "jobicy-151136",
+      "title": "Regional Customer Marketing Manager",
+      "company": "Smartsheet",
+      "location": "USA",
+      "salary": "USD 135,000 - 160,000/yearly",
+      "tags": [
+        "Remote",
+        "Marketing",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T18:29:36+00:00",
+      "url": "https://jobicy.com/jobs/151136-regional-customer-marketing-manager"
+    },
+    {
+      "id": "jobicy-151135",
+      "title": "Customer Success - Australia Clients",
+      "company": "Sleek",
+      "location": "Philippines",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T18:29:34+00:00",
+      "url": "https://jobicy.com/jobs/151135-customer-success-australia-clients"
+    },
+    {
+      "id": "jobicy-151130",
+      "title": "Workplace Experience Coordinator",
+      "company": "Emplifi",
+      "location": "Czechia",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T14:49:02+00:00",
+      "url": "https://jobicy.com/jobs/151130-workplace-experience-coordinator"
+    },
+    {
+      "id": "jobicy-151129",
+      "title": "Senior Applied AI Engineer",
+      "company": "Pleo",
+      "location": "Denmark, Portugal, Spain, UK",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T14:49:00+00:00",
+      "url": "https://jobicy.com/jobs/151129-senior-applied-ai-engineer"
+    },
+    {
+      "id": "jobicy-151123",
+      "title": "General Manager - North America",
+      "company": "Emplifi",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T14:48:49+00:00",
+      "url": "https://jobicy.com/jobs/151123-general-manager-north-america"
+    },
+    {
+      "id": "jobicy-151114",
+      "title": "Scientific Engagement",
+      "company": "Ataraxis AI",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T14:48:30+00:00",
+      "url": "https://jobicy.com/jobs/151114-scientific-engagement"
+    },
+    {
+      "id": "jobicy-151083",
+      "title": "Business Operations Manager, Customer Success",
+      "company": "Zscaler",
+      "location": "USA",
+      "salary": "USD 108,500 - 155,000/yearly",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T07:00:56+00:00",
+      "url": "https://jobicy.com/jobs/151083-business-operations-manager-customer-success"
+    },
+    {
+      "id": "jobicy-151077",
+      "title": "Functional Consultant, EMEA",
+      "company": "Zone &#038; Co",
+      "location": "Philippines",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T06:56:51+00:00",
+      "url": "https://jobicy.com/jobs/151077-functional-consultant-emea"
+    },
+    {
+      "id": "jobicy-151076",
+      "title": "Production Lead",
+      "company": "Envato",
+      "location": "Australia, New Zealand",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T06:56:49+00:00",
+      "url": "https://jobicy.com/jobs/151076-production-lead"
+    },
+    {
+      "id": "jobicy-151075",
+      "title": "Account Executive - Japan",
+      "company": "Elevenlabs",
+      "location": "Japan",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T06:56:47+00:00",
+      "url": "https://jobicy.com/jobs/151075-account-executive-japan"
+    },
+    {
+      "id": "jobicy-151073",
+      "title": "Product Designer II",
+      "company": "Built Technologies",
+      "location": "USA",
+      "salary": "USD 100,000 - 125,000/yearly",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T06:51:54+00:00",
+      "url": "https://jobicy.com/jobs/151073-product-designer-ii"
+    },
+    {
+      "id": "jobicy-151068",
+      "title": "Account Executive - OGC (Dallas Based, Remote)",
+      "company": "Built Technologies",
+      "location": "USA",
+      "salary": "USD 120,000 - 140,000/yearly",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-19T06:51:44+00:00",
+      "url": "https://jobicy.com/jobs/151068-account-executive-ogc-dallas-based-remote"
+    },
+    {
+      "id": "jobicy-146556",
+      "title": "Machine Learning Engineering Manager - Ads Engagement Modeling",
+      "company": "Reddit",
+      "location": "USA",
+      "salary": "USD 230,000 - 322,000/yearly",
+      "tags": [
+        "Remote",
+        "Data and Analytics",
+        "Machine Learning"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-19T02:30:03+00:00",
+      "url": "https://jobicy.com/jobs/146556-machine-learning-engineering-manager-ads-engagement-modeling"
+    },
+    {
       "id": "jobicy-145923",
       "title": "Account Executive, Enterprise - West",
       "company": "Motive",
@@ -11,7 +461,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-19T02:25:02+00:00",
       "url": "https://jobicy.com/jobs/145923-account-executive-enterprise-west"
     },
@@ -26,7 +476,7 @@
         "Marketing",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-19T02:20:03+00:00",
       "url": "https://jobicy.com/jobs/146688-technical-product-marketer-k0rdent-ai-remote-in-the-us"
     },
@@ -41,7 +491,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-19T02:11:46+00:00",
       "url": "https://jobicy.com/jobs/146803-application-security-engineering-manager"
     },
@@ -56,7 +506,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-19T02:05:09+00:00",
       "url": "https://jobicy.com/jobs/147050-ai-systems-engineering-expert"
     },
@@ -851,7 +1301,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "3 days ago",
+      "postedAt": "4 days ago",
       "postedAtISO": "2026-08-16T10:09:41",
       "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266"
     },
@@ -896,7 +1346,7 @@
         "Marketing",
         "AI"
       ],
-      "postedAt": "4 days ago",
+      "postedAt": "5 days ago",
       "postedAtISO": "2026-08-15T19:58:15",
       "url": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068"
     },
@@ -1317,7 +1767,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "5 days ago",
+      "postedAt": "6 days ago",
       "postedAtISO": "2026-08-14T20:33:39",
       "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
     },
@@ -2143,7 +2593,7 @@
         "Design",
         "AI"
       ],
-      "postedAt": "22 days ago",
+      "postedAt": "23 days ago",
       "postedAtISO": "2026-07-28T14:23:05",
       "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081"
     },
@@ -2158,7 +2608,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "27 days ago",
+      "postedAt": "28 days ago",
       "postedAtISO": "2026-07-23T15:39:28",
       "url": "https://remotive.com/remote-jobs/sales/business-development-representative-2091075"
     },
@@ -2173,7 +2623,7 @@
         "All others",
         "AI"
       ],
-      "postedAt": "27 days ago",
+      "postedAt": "28 days ago",
       "postedAtISO": "2026-07-23T15:37:35",
       "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091074"
     },
