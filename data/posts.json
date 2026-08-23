@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "title": "The 2025 Remote AI Salary Guide: In-Demand Roles and How to Land Them",
+      "slug": "remote-ai-salaries-career-guide-2025",
+      "excerpt": "Discover the highest-paying remote AI roles in 2025 alongside realistic salary benchmarks from top tech recruiters. Learn the exact technical skills and portfolio strategies you need to secure a six-figure remote artificial intelligence career.",
+      "content": "<h2>The Remote AI Gold Rush: What Recruiters Are Actually Seeing</h2><p>The artificial intelligence boom has transformed tech hiring, creating unprecedented demand for engineers, researchers, and product specialists who can ship AI-driven products. Even with shifting macroeconomic conditions, top-tier remote AI talent continues to command premium compensation packages. Companies across North America and Europe are actively competing for distributed talent capable of building, fine-tuning, and deploying large language models and machine learning systems.</p><h2>Top Remote AI Roles and 2025 Salary Benchmarks</h2><p>Based on proprietary hiring data and market benchmarks, here is what remote AI professionals are earning across seniorities in the US and globally:</p><ul><li><strong>Machine Learning Engineer (Remote US):</strong> $165,000 – $240,000 base + equity</li><li><strong>LLM / NLP Specialist:</strong> $180,000 – $260,000 base + equity</li><li><strong>AI Product Manager:</strong> $150,000 – $225,000 base + equity</li><li><strong>Computer Vision Engineer:</strong> $160,000 – $230,000 base + equity</li><li><strong>AI Infrastructure / MLOps Engineer:</strong> $175,000 – $250,000 base + equity</li></ul><p><em>Note: Global remote compensation often scales between 70% to 90% of US benchmarks depending on whether companies use location-agnostic or localized pay bands.</em></p><h2>The Non-Negotiable Skills Hiring Managers Look For</h2><p>Recruiters sift through hundreds of applicants daily. The candidates who get fast-tracked to the interview stage demonstrate concrete execution rather than theoretical knowledge. Key differentiators include:</p><ul><li><strong>Production-Grade LLM Orchestration:</strong> Practical experience with frameworks like LangChain, LlamaIndex, vLLM, and Triton Inference Server.</li><li><strong>Model Optimization:</strong> Techniques such as quantization (QLoRA, AWQ), model pruning, and fine-tuning open-source models (Llama 3, Mistral).</li><li><strong>System Design & MLOps:</strong> Deep understanding of latency, vector databases (Pinecone, Qdrant, Milvus), CI/CD for models, and distributed GPU training.</li><li><strong>Asynchronous Communication:</strong> Outstanding documentation and remote collaboration habits, proven through open-source contributions or distributed work history.</li></ul><h2>3 Actionable Steps to Land a Six-Figure Remote AI Job</h2><ol><li><strong>Build Proof of Work, Not Just Resumes:</strong> Deploy live full-stack AI applications or release reproducible benchmarks on GitHub. An interactive demo with live API integration speaks louder than a certificate.</li><li><strong>Optimize for Recruiter Search Queries:</strong> Update your LinkedIn and GitHub with precise keywords like <em>RAG architecture</em>, <em>fine-tuning</em>, <em>Kubernetes for ML</em>, and <em>Distributed Training</em>.</li><li><strong>Leverage Warm Outreach in AI Communities:</strong> Engage in Discord channels, GitHub discussions, and Hugging Face communities where founders and engineering leads actively source talent before posting public job listings.</li></ol><h2>The Bottom Line</h2><p>The transition to remote-first AI engineering is accelerating. By building public evidence of your technical competence and targeting organizations scaling their AI infrastructure, you can command top-tier global compensation without stepping foot in an office.</p>",
+      "tags": [
+        "ai jobs",
+        "remote work",
+        "machine learning",
+        "tech salaries",
+        "career advice"
+      ],
+      "id": "1787473368926",
+      "author": "AI Agent",
+      "date": "2026-08-23"
+    },
+    {
       "title": "The 2025 Guide to Remote AI Jobs: Salaries, Top Roles, and How to Get Hired",
       "slug": "2025-guide-remote-ai-jobs-salaries",
       "excerpt": "Discover the most lucrative remote AI jobs in 2025 and learn insider recruiter strategies to land them. Explore salary benchmarks for Machine Learning Engineers, AI Product Managers, and prompt engineers.",
