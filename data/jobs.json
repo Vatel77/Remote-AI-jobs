@@ -1,6 +1,111 @@
 {
   "jobs": [
     {
+      "id": "jobicy-151436",
+      "title": "Pre-Sales Solutions Engineer (EST or PST)",
+      "company": "Deepgram",
+      "location": "USA",
+      "salary": "USD 197,000 - 246,000/yearly",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-23T19:32:56+00:00",
+      "url": "https://jobicy.com/jobs/151436-pre-sales-solutions-engineer-est-or-pst"
+    },
+    {
+      "id": "jobicy-151433",
+      "title": "Account Executive III",
+      "company": "Teachable",
+      "location": "Brazil",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-23T19:32:09+00:00",
+      "url": "https://jobicy.com/jobs/151433-account-executive-iii"
+    },
+    {
+      "id": "jobicy-151432",
+      "title": "Enterprise Customer Success Manager",
+      "company": "SOCi",
+      "location": "Canada, USA",
+      "salary": "CAD 105,000 - 150,000/yearly",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-08-23T19:31:54+00:00",
+      "url": "https://jobicy.com/jobs/151432-enterprise-customer-success-manager-5"
+    },
+    {
+      "id": "jobicy-149595",
+      "title": "Senior Workday Platform Engineer",
+      "company": "Natera",
+      "location": "USA",
+      "salary": "USD 128,800 - 161,050/yearly",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-23T05:05:08+00:00",
+      "url": "https://jobicy.com/jobs/149595-senior-workday-platform-engineer"
+    },
+    {
+      "id": "jobicy-149602",
+      "title": "Engineering Manager I, Applications",
+      "company": "StackAdapt",
+      "location": "Canada",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-23T05:05:04+00:00",
+      "url": "https://jobicy.com/jobs/149602-engineering-manager-i-applications"
+    },
+    {
+      "id": "jobicy-151419",
+      "title": "Senior CRM Manager",
+      "company": "Envato",
+      "location": "Australia, New Zealand",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Marketing",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-23T03:55:53+00:00",
+      "url": "https://jobicy.com/jobs/151419-senior-crm-manager"
+    },
+    {
+      "id": "jobicy-151417",
+      "title": "Sr. Enterprise Architect",
+      "company": "Ironclad",
+      "location": "USA",
+      "salary": "USD 175,000 - 200,000/yearly",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "2 days ago",
+      "postedAtISO": "2026-08-23T03:55:24+00:00",
+      "url": "https://jobicy.com/jobs/151417-sr-enterprise-architect"
+    },
+    {
       "id": "jobicy-151415",
       "title": "Full Stack Engineer",
       "company": "Roboflow",
@@ -11,7 +116,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T18:42:05+00:00",
       "url": "https://jobicy.com/jobs/151415-full-stack-engineer"
     },
@@ -26,7 +131,7 @@
         "Marketing",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T18:41:47+00:00",
       "url": "https://jobicy.com/jobs/151414-digital-marketing-ai-specialist"
     },
@@ -41,7 +146,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T18:41:15+00:00",
       "url": "https://jobicy.com/jobs/151412-developer-advocate"
     },
@@ -56,7 +161,7 @@
         "Devops",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:10:08+00:00",
       "url": "https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5"
     },
@@ -71,7 +176,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:10:05+00:00",
       "url": "https://jobicy.com/jobs/149555-graduate-sales-development-representative"
     },
@@ -86,7 +191,7 @@
         "All others",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:10:04+00:00",
       "url": "https://jobicy.com/jobs/149556-engineering-manager-solutions-engineering"
     },
@@ -101,7 +206,7 @@
         "Customer Service",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:10:02+00:00",
       "url": "https://jobicy.com/jobs/149554-support-engineering-manager"
     },
@@ -116,7 +221,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:05:08+00:00",
       "url": "https://jobicy.com/jobs/149558-microservices-engineer"
     },
@@ -131,7 +236,7 @@
         "All others",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:05:06+00:00",
       "url": "https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only"
     },
@@ -146,7 +251,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:05:05+00:00",
       "url": "https://jobicy.com/jobs/149562-lead-linux-kernel-engineer-ubuntu"
     },
@@ -161,7 +266,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:05:04+00:00",
       "url": "https://jobicy.com/jobs/149560-software-engineer-solutions-engineering"
     },
@@ -176,7 +281,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:00:07+00:00",
       "url": "https://jobicy.com/jobs/149566-rust-engineering-lead-linux-and-open-source"
     },
@@ -191,7 +296,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:00:05+00:00",
       "url": "https://jobicy.com/jobs/149565-ubuntu-security-engineer"
     },
@@ -208,7 +313,7 @@
         "AI",
         "Data"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:00:04+00:00",
       "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics"
     },
@@ -223,7 +328,7 @@
         "Devops",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:55:04+00:00",
       "url": "https://jobicy.com/jobs/149569-cloud-engineering-manager"
     },
@@ -238,7 +343,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:55:02+00:00",
       "url": "https://jobicy.com/jobs/149568-cloud-solutions-architect-alliances"
     },
@@ -253,7 +358,7 @@
         "Customer Service",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:51:36+00:00",
       "url": "https://jobicy.com/jobs/151408-senior-customer-success-engineer"
     },
@@ -268,7 +373,7 @@
         "Customer Service",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:51:33+00:00",
       "url": "https://jobicy.com/jobs/151406-customer-success-engineer-scaled"
     },
@@ -283,7 +388,7 @@
         "Customer Service",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:51:32+00:00",
       "url": "https://jobicy.com/jobs/151405-senior-manager-amers-customer-success"
     },
@@ -298,7 +403,7 @@
         "Customer Service",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:51:27+00:00",
       "url": "https://jobicy.com/jobs/151402-customer-solutions-engineer-3"
     },
@@ -313,7 +418,7 @@
         "All others",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:47:11+00:00",
       "url": "https://jobicy.com/jobs/149575-engineering-manager"
     },
@@ -328,7 +433,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:47:10+00:00",
       "url": "https://jobicy.com/jobs/149576-containerization-virtualisation-engineer"
     },
@@ -343,7 +448,7 @@
         "Devops",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:47:06+00:00",
       "url": "https://jobicy.com/jobs/149573-openstack-engineering-manager"
     },
@@ -358,7 +463,7 @@
         "All others",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:45:11+00:00",
       "url": "https://jobicy.com/jobs/149580-hebrew-freelance-translator-copy-editor-product-support-marketing-content"
     },
@@ -373,7 +478,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:45:10+00:00",
       "url": "https://jobicy.com/jobs/149581-graduate-software-engineer-open-source-and-linux-canonical-ubuntu"
     },
@@ -388,7 +493,7 @@
         "All others",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:45:09+00:00",
       "url": "https://jobicy.com/jobs/149579-iot-solutions-architecture-manager-americas-only"
     },
@@ -403,7 +508,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:40:08+00:00",
       "url": "https://jobicy.com/jobs/149520-junior-linux-kernel-engineer-ubuntu"
     },
@@ -418,7 +523,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:40:07+00:00",
       "url": "https://jobicy.com/jobs/149522-senior-staff-principal-engineer"
     },
@@ -433,7 +538,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:35:06+00:00",
       "url": "https://jobicy.com/jobs/149527-web-frontend-engineer-js-css-react-flutter"
     },
@@ -448,7 +553,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:35:05+00:00",
       "url": "https://jobicy.com/jobs/149525-senior-partner-sales-manager-global-system-integrator-gsi"
     },
@@ -463,7 +568,7 @@
         "All others",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:35:04+00:00",
       "url": "https://jobicy.com/jobs/149528-engineering-manager-managed-services"
     },
@@ -478,7 +583,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:35:02+00:00",
       "url": "https://jobicy.com/jobs/149524-software-engineer-sustaining-engineering"
     },
@@ -493,7 +598,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:30:04+00:00",
       "url": "https://jobicy.com/jobs/149529-partner-sales-director-global-system-integrator-gsi"
     },
@@ -508,7 +613,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:25:07+00:00",
       "url": "https://jobicy.com/jobs/149535-embedded-linux-field-engineer-for-devices-iot"
     },
@@ -523,7 +628,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:25:05+00:00",
       "url": "https://jobicy.com/jobs/149534-alliances-field-engineer"
     },
@@ -538,7 +643,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:25:03+00:00",
       "url": "https://jobicy.com/jobs/149537-ubuntu-engineering-lead"
     },
@@ -553,7 +658,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:25:02+00:00",
       "url": "https://jobicy.com/jobs/149538-golang-engineer-2"
     },
@@ -568,7 +673,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:20:07+00:00",
       "url": "https://jobicy.com/jobs/149539-embedded-devices-software-solution-sales-all-roles"
     },
@@ -583,7 +688,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:20:04+00:00",
       "url": "https://jobicy.com/jobs/149543-python-engineer"
     },
@@ -598,7 +703,7 @@
         "Devops",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:15:08+00:00",
       "url": "https://jobicy.com/jobs/149547-site-reliability-engineer"
     },
@@ -613,7 +718,7 @@
         "Devops",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:15:07+00:00",
       "url": "https://jobicy.com/jobs/149544-senior-site-reliability-gitops-engineer"
     },
@@ -628,7 +733,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:15:04+00:00",
       "url": "https://jobicy.com/jobs/149545-ubuntu-sales-engineer-entry-level"
     },
@@ -643,7 +748,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T16:10:07+00:00",
       "url": "https://jobicy.com/jobs/149550-security-software-engineer"
     },
@@ -1168,7 +1273,7 @@
         "All others",
         "AI"
       ],
-      "postedAt": "3 days ago",
+      "postedAt": "4 days ago",
       "postedAtISO": "2026-08-21T05:54:39",
       "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-english-us-2091105"
     },
@@ -1693,7 +1798,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "3 days ago",
+      "postedAt": "4 days ago",
       "postedAtISO": "2026-08-20T13:30:47",
       "url": "https://remotive.com/remote-jobs/software-development/senior-golang-developer-2091098"
     },
@@ -1768,7 +1873,7 @@
         "All others",
         "AI"
       ],
-      "postedAt": "3 days ago",
+      "postedAt": "4 days ago",
       "postedAtISO": "2026-08-20T09:54:55",
       "url": "https://remotive.com/remote-jobs/all-others/vice-president-technology-digital-strategy-2091104"
     },
@@ -2248,7 +2353,7 @@
         "Software Development",
         "Data"
       ],
-      "postedAt": "4 days ago",
+      "postedAt": "5 days ago",
       "postedAtISO": "2026-08-19T12:12:11",
       "url": "https://remotive.com/remote-jobs/software-development/senior-data-engineer-2091097"
     },
@@ -3208,7 +3313,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "7 days ago",
+      "postedAt": "8 days ago",
       "postedAtISO": "2026-08-16T10:09:41",
       "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266"
     },
@@ -3253,7 +3358,7 @@
         "Marketing",
         "AI"
       ],
-      "postedAt": "8 days ago",
+      "postedAt": "9 days ago",
       "postedAtISO": "2026-08-15T19:58:15",
       "url": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068"
     },
@@ -3674,7 +3779,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "9 days ago",
+      "postedAt": "10 days ago",
       "postedAtISO": "2026-08-14T20:33:39",
       "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
     },
@@ -4398,111 +4503,6 @@
       "postedAt": "3 days ago",
       "postedAtISO": "2026-08-11T03:30:07+00:00",
       "url": "https://jobicy.com/jobs/149104-manager-ad-operations"
-    },
-    {
-      "id": "jobicy-149101",
-      "title": "Senior Software Engineer, Backend (AI Agent Integrations)",
-      "company": "Cresta",
-      "location": "Canada",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "3 days ago",
-      "postedAtISO": "2026-08-11T03:30:05+00:00",
-      "url": "https://jobicy.com/jobs/149101-senior-software-engineer-backend-ai-agent-integrations"
-    },
-    {
-      "id": "jobicy-149109",
-      "title": "Software Engineer, Unsecured Installments",
-      "company": "Upstart",
-      "location": "USA",
-      "salary": "USD 136,000 - 196,600/yearly",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "3 days ago",
-      "postedAtISO": "2026-08-11T03:25:16+00:00",
-      "url": "https://jobicy.com/jobs/149109-software-engineer-unsecured-installments"
-    },
-    {
-      "id": "jobicy-149108",
-      "title": "Senior Software Engineer, Unsecured Installments",
-      "company": "Upstart",
-      "location": "USA",
-      "salary": "USD 160,400 - 223,900/yearly",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "3 days ago",
-      "postedAtISO": "2026-08-11T03:25:15+00:00",
-      "url": "https://jobicy.com/jobs/149108-senior-software-engineer-unsecured-installments"
-    },
-    {
-      "id": "jobicy-149107",
-      "title": "Compliance Risk & Controls Manager, Unsecured Line",
-      "company": "Upstart",
-      "location": "USA",
-      "salary": "USD 145,100 - 201,100/yearly",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "3 days ago",
-      "postedAtISO": "2026-08-11T03:25:13+00:00",
-      "url": "https://jobicy.com/jobs/149107-compliance-risk-controls-manager-unsecured-line"
-    },
-    {
-      "id": "jobicy-149098",
-      "title": "Application Support Engineer",
-      "company": "Cresta",
-      "location": "USA",
-      "salary": "USD 90,000 - 105,000/yearly",
-      "tags": [
-        "Remote",
-        "Customer Service",
-        "AI"
-      ],
-      "postedAt": "3 days ago",
-      "postedAtISO": "2026-08-11T03:25:12+00:00",
-      "url": "https://jobicy.com/jobs/149098-application-support-engineer"
-    },
-    {
-      "id": "jobicy-149058",
-      "title": "Google Ads Manager (AI Native)",
-      "company": "Ruby Labs",
-      "location": "Europe, Türkiye",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Marketing",
-        "AI"
-      ],
-      "postedAt": "4 days ago",
-      "postedAtISO": "2026-08-10T10:25:03+00:00",
-      "url": "https://jobicy.com/jobs/149058-google-ads-manager-ai-native"
-    },
-    {
-      "id": "remotive-2091081",
-      "title": "Senior Graphic Designer",
-      "company": "Lemon.io",
-      "location": "Americas, Europe, Asia, Africa, Oceania",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Design",
-        "AI"
-      ],
-      "postedAt": "26 days ago",
-      "postedAtISO": "2026-07-28T14:23:05",
-      "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081"
     }
   ]
 }
