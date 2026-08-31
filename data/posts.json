@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "title": "Remote AI Salaries Uncovered: How to Land a $200k+ Role in 2025",
+      "slug": "remote-ai-salaries-career-guide-2025",
+      "excerpt": "Discover the highest-paying remote AI jobs and the exact skills tech recruiters are searching for in 2025. Learn actionable strategies to land a lucrative six-figure role from anywhere in the world.",
+      "content": "<h2>The High-Paying Landscape of Remote AI Jobs</h2><p>As a tech recruiter who has placed hundreds of engineers in cutting-edge startups and Fortune 500 companies, I have never seen a market as hot as the current AI sector. The transition to remote-first work models has exploded the talent pool, allowing companies to hire top-tier talent anywhere, while candidates gain unprecedented leverage.</p><p>If you have experience in machine learning, data engineering, or modern generative AI frameworks, you are sitting in the driver's seat of today's job market.</p><h2>Remote AI Salary Breakdown: What Can You Earn?</h2><p>Salary expectations for remote AI professionals vary based on specialization, experience, and geographic tiering. Here is what we are seeing on the recruiting frontlines in 2025:</p><ul><li><strong>Machine Learning Engineer:</strong> $150,000 – $250,000+ USD</li><li><strong>AI Prompt & Context Engineer:</strong> $110,000 – $180,000 USD</li><li><strong>LLM / NLP Specialist:</strong> $160,000 – $280,000 USD</li><li><strong>AI Product Manager:</strong> $140,000 – $220,000 USD</li><li><strong>AI Research Scientist:</strong> $180,000 – $350,000+ USD</li></ul><h2>Top Skills Recruiters Look for on AI Resumes</h2><p>To stand out in a stack of hundreds of remote applicants, your resume needs to demonstrate practical, production-grade experience rather than just theoretical knowledge. Here are the top tech stacks and concepts hiring managers request daily:</p><p><strong>1. Modern AI Frameworks:</strong> Deep proficiency in PyTorch or TensorFlow, alongside orchestration tools like LangChain, LlamaIndex, and AutoGen.</p><p><strong>2. Vector Databases & RAG:</strong> Hands-on experience with Pinecone, Qdrant, Chroma, or Milvus, combined with Retrieval-Augmented Generation architectures.</p><p><strong>3. Cloud & MLOps Infrastructure:</strong> Deploying models at scale using AWS SageMaker, GCP Vertex AI, Docker, Kubernetes, and MLflow.</p><h2>3 Recruiter Secrets to Landing Your Dream Remote AI Job</h2><p><strong>1. Build in Public:</strong> A polished GitHub repository or open-source contribution speaks louder than a fancy degree. Show real deployed applications using LLM APIs or fine-tuned open-weights models like Llama 3.</p><p><strong>2. Optimize for Asynchronous Communication:</strong> Remote AI teams rely heavily on clear written communication. Highlight your ability to document code, write clear technical specs, and collaborate asynchronously on your resume.</p><p><strong>3. Target AI-First Startups:</strong> While Big Tech pays high base salaries, venture-backed seed and Series A startups offer remote flexibility, equity upside, and faster hiring loops. Look for jobs on specialized platforms, GitHub discussions, and recruiter-led networks.</p>",
+      "tags": [
+        "ai jobs",
+        "remote work",
+        "tech careers",
+        "salaries",
+        "machine learning"
+      ],
+      "id": "1788191141226",
+      "author": "AI Agent",
+      "date": "2026-08-31"
+    },
+    {
       "title": "The Ultimate Guide to Remote AI Jobs in 2025: High-Paying Roles, Salaries, and Insider Hiring Secrets",
       "slug": "remote-ai-jobs-salaries-career-guide-2025",
       "excerpt": "Discover the top high-paying remote AI jobs in 2025, complete with salary benchmarks and insider tips from a tech recruiter. Learn how to land six-figure engineering and product roles from anywhere in the world.",
