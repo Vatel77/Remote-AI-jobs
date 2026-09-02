@@ -1,6 +1,592 @@
 {
   "jobs": [
     {
+      "id": "jobicy-150535",
+      "title": "Regional Director, Customer Success, LATAM",
+      "company": "Coursera",
+      "location": "Brazil",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T06:05:05+00:00",
+      "url": "https://jobicy.com/jobs/150535-regional-director-customer-success-latam"
+    },
+    {
+      "id": "jobicy-142304",
+      "title": "AI Sales Executive",
+      "company": "EAC Product Development Solutions",
+      "location": "USA",
+      "salary": "USD 100,000 - 100,000/yearly",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T05:05:08+00:00",
+      "url": "https://jobicy.com/jobs/142304-ai-sales-executive"
+    },
+    {
+      "id": "jobicy-150024",
+      "title": "Lead AI Solutions Architect, Customer Success",
+      "company": "Genesys",
+      "location": "Sweden",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:59:24+00:00",
+      "url": "https://jobicy.com/jobs/150024-lead-ai-solutions-architect-customer-success"
+    },
+    {
+      "id": "jobicy-150056",
+      "title": "Content & SEO Specialist",
+      "company": "WATI",
+      "location": "LATAM",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:59:22+00:00",
+      "url": "https://jobicy.com/jobs/150056-content-seo-specialist"
+    },
+    {
+      "id": "jobicy-150049",
+      "title": "Senior Product Designer, Growth",
+      "company": "Vercel",
+      "location": "USA",
+      "salary": "USD 172,000 - 258,000/yearly",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:59:21+00:00",
+      "url": "https://jobicy.com/jobs/150049-senior-product-designer-growth"
+    },
+    {
+      "id": "jobicy-150037",
+      "title": "Customer Success Manager - WE",
+      "company": "Bloomreach",
+      "location": "UK",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:59:20+00:00",
+      "url": "https://jobicy.com/jobs/150037-customer-success-manager-we"
+    },
+    {
+      "id": "jobicy-150029",
+      "title": "Lead Customer Success Manager - West",
+      "company": "Tines",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:59:18+00:00",
+      "url": "https://jobicy.com/jobs/150029-lead-customer-success-manager-west"
+    },
+    {
+      "id": "jobicy-148113",
+      "title": "Accounts Receivable Clerk",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:59:12+00:00",
+      "url": "https://jobicy.com/jobs/148113-accounts-receivable-clerk"
+    },
+    {
+      "id": "jobicy-149997",
+      "title": "Senior Design Manager (Infrastructure)",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Design",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:55:28+00:00",
+      "url": "https://jobicy.com/jobs/149997-senior-design-manager-infrastructure"
+    },
+    {
+      "id": "jobicy-149996",
+      "title": "Ubuntu Core Software Engineer",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:55:26+00:00",
+      "url": "https://jobicy.com/jobs/149996-ubuntu-core-software-engineer"
+    },
+    {
+      "id": "jobicy-150065",
+      "title": "Data/ Java Engineer (AI/LLM Chatbot, Customer Service)",
+      "company": "Binance",
+      "location": "APAC",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI",
+        "Data"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:55:22+00:00",
+      "url": "https://jobicy.com/jobs/150065-data-java-engineer-ai-llm-chatbot-customer-service"
+    },
+    {
+      "id": "jobicy-149995",
+      "title": "Content marketing lead",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Marketing",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:55:21+00:00",
+      "url": "https://jobicy.com/jobs/149995-content-marketing-lead"
+    },
+    {
+      "id": "jobicy-149991",
+      "title": "Tax Senior Associate",
+      "company": "Canonical",
+      "location": "EMEA, UK",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:55:18+00:00",
+      "url": "https://jobicy.com/jobs/149991-tax-senior-associate"
+    },
+    {
+      "id": "jobicy-149992",
+      "title": "Graduate Talent Scientist",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:55:17+00:00",
+      "url": "https://jobicy.com/jobs/149992-graduate-talent-scientist"
+    },
+    {
+      "id": "jobicy-149984",
+      "title": "Golang Engineering Manager, Commercial Systems",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:55:15+00:00",
+      "url": "https://jobicy.com/jobs/149984-golang-engineering-manager-commercial-systems"
+    },
+    {
+      "id": "jobicy-149986",
+      "title": "Site Reliability Engineering Manager",
+      "company": "Canonical",
+      "location": "APAC, EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Devops",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:55:14+00:00",
+      "url": "https://jobicy.com/jobs/149986-site-reliability-engineering-manager"
+    },
+    {
+      "id": "jobicy-149989",
+      "title": "Python Engineering Manager, Commercial Systems",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:55:10+00:00",
+      "url": "https://jobicy.com/jobs/149989-python-engineering-manager-commercial-systems"
+    },
+    {
+      "id": "jobicy-149985",
+      "title": "Engineering Manager - Public Cloud, Python, Golang",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:55:07+00:00",
+      "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang"
+    },
+    {
+      "id": "jobicy-150061",
+      "title": "Senior Backend Engineer, AI Engineering: Chat",
+      "company": "GitLab",
+      "location": "UK",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:55:06+00:00",
+      "url": "https://jobicy.com/jobs/150061-senior-backend-engineer-ai-engineering-chat"
+    },
+    {
+      "id": "jobicy-149947",
+      "title": "Electrical Engineer- Data Centers",
+      "company": "Nebius",
+      "location": "Europe",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "Data"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:50:16+00:00",
+      "url": "https://jobicy.com/jobs/149947-electrical-engineer-data-centers"
+    },
+    {
+      "id": "jobicy-150021",
+      "title": "Regional Director, Federal Sales (CIVILIAN)",
+      "company": "Cohesity",
+      "location": "USA",
+      "salary": "USD 336,000 - 420,000/yearly",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:50:14+00:00",
+      "url": "https://jobicy.com/jobs/150021-regional-director-federal-sales-civilian"
+    },
+    {
+      "id": "jobicy-149961",
+      "title": "Senior Organisational Development Practitioner",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:45:11+00:00",
+      "url": "https://jobicy.com/jobs/149961-senior-organisational-development-practitioner"
+    },
+    {
+      "id": "jobicy-149970",
+      "title": "Engineering Manager- Ceph & Distributed Storage",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:45:10+00:00",
+      "url": "https://jobicy.com/jobs/149970-engineering-manager-ceph-distributed-storage"
+    },
+    {
+      "id": "jobicy-149972",
+      "title": "Software Engineer, Ceph & Distributed Storage",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:45:07+00:00",
+      "url": "https://jobicy.com/jobs/149972-software-engineer-ceph-distributed-storage"
+    },
+    {
+      "id": "jobicy-149969",
+      "title": "Linux devices software engineer - snapd",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:45:05+00:00",
+      "url": "https://jobicy.com/jobs/149969-linux-devices-software-engineer-snapd"
+    },
+    {
+      "id": "jobicy-149975",
+      "title": "Senior Ubuntu Embedded IoT System Engineer",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:45:03+00:00",
+      "url": "https://jobicy.com/jobs/149975-senior-ubuntu-embedded-iot-system-engineer"
+    },
+    {
+      "id": "jobicy-149973",
+      "title": "Software Engineering Manager - Container and Virtualisation Infrastructure",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:45:01+00:00",
+      "url": "https://jobicy.com/jobs/149973-software-engineering-manager-container-and-virtualisation-infrastructure"
+    },
+    {
+      "id": "jobicy-149982",
+      "title": "Silicon Alliances Ecosystem Development Manager",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:44:58+00:00",
+      "url": "https://jobicy.com/jobs/149982-silicon-alliances-ecosystem-development-manager"
+    },
+    {
+      "id": "jobicy-149981",
+      "title": "Software Architect - Containers / Virtualisation",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:44:57+00:00",
+      "url": "https://jobicy.com/jobs/149981-software-architect-containers-virtualisation"
+    },
+    {
+      "id": "jobicy-149980",
+      "title": "Engineering Manager for IAM (Identity and Access Management)",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:44:55+00:00",
+      "url": "https://jobicy.com/jobs/149980-engineering-manager-for-iam-identity-and-access-management"
+    },
+    {
+      "id": "jobicy-149977",
+      "title": "Senior HR Generalist - EMEA",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:44:54+00:00",
+      "url": "https://jobicy.com/jobs/149977-senior-hr-generalist-emea"
+    },
+    {
+      "id": "jobicy-149976",
+      "title": "Engineering Manager - Web",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:44:52+00:00",
+      "url": "https://jobicy.com/jobs/149976-engineering-manager-web"
+    },
+    {
+      "id": "jobicy-149979",
+      "title": "Information Systems - Open Source Technical Architect",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Devops",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:44:51+00:00",
+      "url": "https://jobicy.com/jobs/149979-information-systems-open-source-technical-architect"
+    },
+    {
+      "id": "jobicy-149978",
+      "title": "Software Engineer - Cloud Images",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:44:50+00:00",
+      "url": "https://jobicy.com/jobs/149978-software-engineer-cloud-images"
+    },
+    {
+      "id": "jobicy-149924",
+      "title": "Regional SDR Director",
+      "company": "Canonical",
+      "location": "APAC, EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:40:18+00:00",
+      "url": "https://jobicy.com/jobs/149924-regional-sdr-director"
+    },
+    {
+      "id": "jobicy-149983",
+      "title": "Design Manager (Visual)",
+      "company": "Canonical",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Design",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:40:17+00:00",
+      "url": "https://jobicy.com/jobs/149983-design-manager-visual"
+    },
+    {
+      "id": "jobicy-149942",
+      "title": "Channel Partner Sales Executive, Japan",
+      "company": "Canonical",
+      "location": "APAC",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:40:16+00:00",
+      "url": "https://jobicy.com/jobs/149942-channel-partner-sales-executive-japan"
+    },
+    {
+      "id": "jobicy-149939",
+      "title": "GitOps Engineering Manager",
+      "company": "Canonical",
+      "location": "APAC, EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Devops",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:40:14+00:00",
+      "url": "https://jobicy.com/jobs/149939-gitops-engineering-manager"
+    },
+    {
+      "id": "jobicy-149941",
+      "title": "Marketing Associate",
+      "company": "Canonical",
+      "location": "APAC, EMEA, LATAM, Canada, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Marketing",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-02T04:40:07+00:00",
+      "url": "https://jobicy.com/jobs/149941-marketing-associate"
+    },
+    {
       "id": "jobicy-152293",
       "title": "Senior Security Engineer",
       "company": "Karbon",
@@ -1708,7 +2294,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "5 days ago",
+      "postedAt": "6 days ago",
       "postedAtISO": "2026-08-27T14:36:09",
       "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091101"
     },
@@ -2410,12 +2996,12 @@
       "salary": "Competitive",
       "tags": [
         "Remote",
-        "Software Development",
+        "Quality Assurance",
         "AI"
       ],
-      "postedAt": "6 days ago",
+      "postedAt": "7 days ago",
       "postedAtISO": "2026-08-26T13:10:58",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-qa-engineer-2091100"
+      "url": "https://remotive.com/remote-jobs/qa/senior-qa-engineer-2091100"
     },
     {
       "id": "jobicy-151642",
@@ -2714,7 +3300,7 @@
         "Devops",
         "AI"
       ],
-      "postedAt": "7 days ago",
+      "postedAt": "8 days ago",
       "postedAtISO": "2026-08-25T13:57:53",
       "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099"
     },
@@ -3917,593 +4503,6 @@
       "postedAt": "2 days ago",
       "postedAtISO": "2026-08-22T17:05:05+00:00",
       "url": "https://jobicy.com/jobs/149562-lead-linux-kernel-engineer-ubuntu"
-    },
-    {
-      "id": "jobicy-149560",
-      "title": "Software Engineer - Solutions Engineering",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T17:05:04+00:00",
-      "url": "https://jobicy.com/jobs/149560-software-engineer-solutions-engineering"
-    },
-    {
-      "id": "jobicy-149566",
-      "title": "Rust Engineering Lead - Linux and Open Source",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T17:00:07+00:00",
-      "url": "https://jobicy.com/jobs/149566-rust-engineering-lead-linux-and-open-source"
-    },
-    {
-      "id": "jobicy-149565",
-      "title": "Ubuntu Security Engineer",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T17:00:05+00:00",
-      "url": "https://jobicy.com/jobs/149565-ubuntu-security-engineer"
-    },
-    {
-      "id": "jobicy-149563",
-      "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "Machine Learning",
-        "AI",
-        "Data"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T17:00:04+00:00",
-      "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics"
-    },
-    {
-      "id": "jobicy-149569",
-      "title": "Cloud Engineering Manager",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Devops",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:55:04+00:00",
-      "url": "https://jobicy.com/jobs/149569-cloud-engineering-manager"
-    },
-    {
-      "id": "jobicy-149568",
-      "title": "Cloud Solutions Architect - Alliances",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:55:02+00:00",
-      "url": "https://jobicy.com/jobs/149568-cloud-solutions-architect-alliances"
-    },
-    {
-      "id": "jobicy-151408",
-      "title": "Senior Customer Success Engineer",
-      "company": "Veeam Software",
-      "location": "UAE",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Customer Service",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:51:36+00:00",
-      "url": "https://jobicy.com/jobs/151408-senior-customer-success-engineer"
-    },
-    {
-      "id": "jobicy-151406",
-      "title": "Customer Success Engineer (Scaled)",
-      "company": "Deepgram",
-      "location": "USA",
-      "salary": "USD 147,000 - 176,500/yearly",
-      "tags": [
-        "Remote",
-        "Customer Service",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:51:33+00:00",
-      "url": "https://jobicy.com/jobs/151406-customer-success-engineer-scaled"
-    },
-    {
-      "id": "jobicy-151405",
-      "title": "Senior Manager, AMERs Customer Success",
-      "company": "Veeam Software",
-      "location": "USA",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Customer Service",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:51:32+00:00",
-      "url": "https://jobicy.com/jobs/151405-senior-manager-amers-customer-success"
-    },
-    {
-      "id": "jobicy-151402",
-      "title": "Customer Solutions Engineer",
-      "company": "TRM Labs",
-      "location": "USA",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Customer Service",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:51:27+00:00",
-      "url": "https://jobicy.com/jobs/151402-customer-solutions-engineer-3"
-    },
-    {
-      "id": "jobicy-149575",
-      "title": "Engineering Manager",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:47:11+00:00",
-      "url": "https://jobicy.com/jobs/149575-engineering-manager"
-    },
-    {
-      "id": "jobicy-149576",
-      "title": "Containerization & Virtualisation Engineer",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:47:10+00:00",
-      "url": "https://jobicy.com/jobs/149576-containerization-virtualisation-engineer"
-    },
-    {
-      "id": "jobicy-149573",
-      "title": "OpenStack Engineering Manager",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Devops",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:47:06+00:00",
-      "url": "https://jobicy.com/jobs/149573-openstack-engineering-manager"
-    },
-    {
-      "id": "jobicy-149580",
-      "title": "Hebrew Freelance Translator & Copy Editor (Product, Support & Marketing Content)",
-      "company": "Welo Global",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:45:11+00:00",
-      "url": "https://jobicy.com/jobs/149580-hebrew-freelance-translator-copy-editor-product-support-marketing-content"
-    },
-    {
-      "id": "jobicy-149581",
-      "title": "Graduate Software Engineer, Open Source and Linux, Canonical Ubuntu",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:45:10+00:00",
-      "url": "https://jobicy.com/jobs/149581-graduate-software-engineer-open-source-and-linux-canonical-ubuntu"
-    },
-    {
-      "id": "jobicy-149579",
-      "title": "IoT Solutions Architecture Manager (Americas only)",
-      "company": "Canonical Ltd.",
-      "location": "LATAM, Canada, USA",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:45:09+00:00",
-      "url": "https://jobicy.com/jobs/149579-iot-solutions-architecture-manager-americas-only"
-    },
-    {
-      "id": "jobicy-149520",
-      "title": "Junior Linux Kernel Engineer - Ubuntu",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:40:08+00:00",
-      "url": "https://jobicy.com/jobs/149520-junior-linux-kernel-engineer-ubuntu"
-    },
-    {
-      "id": "jobicy-149522",
-      "title": "Senior/Staff/Principal Engineer",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:40:07+00:00",
-      "url": "https://jobicy.com/jobs/149522-senior-staff-principal-engineer"
-    },
-    {
-      "id": "jobicy-149527",
-      "title": "Web Frontend Engineer - JS, CSS, React, Flutter",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "USD 48,000 - 70,000/yearly",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:35:06+00:00",
-      "url": "https://jobicy.com/jobs/149527-web-frontend-engineer-js-css-react-flutter"
-    },
-    {
-      "id": "jobicy-149525",
-      "title": "Senior Partner Sales Manager - Global System Integrator (GSI)",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:35:05+00:00",
-      "url": "https://jobicy.com/jobs/149525-senior-partner-sales-manager-global-system-integrator-gsi"
-    },
-    {
-      "id": "jobicy-149528",
-      "title": "Engineering Manager, Managed Services",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:35:04+00:00",
-      "url": "https://jobicy.com/jobs/149528-engineering-manager-managed-services"
-    },
-    {
-      "id": "jobicy-149524",
-      "title": "Software Engineer, Sustaining Engineering",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:35:02+00:00",
-      "url": "https://jobicy.com/jobs/149524-software-engineer-sustaining-engineering"
-    },
-    {
-      "id": "jobicy-149529",
-      "title": "Partner Sales Director - Global System Integrator (GSI)",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:30:04+00:00",
-      "url": "https://jobicy.com/jobs/149529-partner-sales-director-global-system-integrator-gsi"
-    },
-    {
-      "id": "jobicy-149535",
-      "title": "Embedded Linux Field Engineer for Devices/IoT",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:25:07+00:00",
-      "url": "https://jobicy.com/jobs/149535-embedded-linux-field-engineer-for-devices-iot"
-    },
-    {
-      "id": "jobicy-149534",
-      "title": "Alliances Field Engineer",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:25:05+00:00",
-      "url": "https://jobicy.com/jobs/149534-alliances-field-engineer"
-    },
-    {
-      "id": "jobicy-149537",
-      "title": "Ubuntu Engineering Lead",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:25:03+00:00",
-      "url": "https://jobicy.com/jobs/149537-ubuntu-engineering-lead"
-    },
-    {
-      "id": "jobicy-149538",
-      "title": "Golang Engineer",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:25:02+00:00",
-      "url": "https://jobicy.com/jobs/149538-golang-engineer-2"
-    },
-    {
-      "id": "jobicy-149539",
-      "title": "Embedded Devices Software Solution Sales - All Roles",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:20:07+00:00",
-      "url": "https://jobicy.com/jobs/149539-embedded-devices-software-solution-sales-all-roles"
-    },
-    {
-      "id": "jobicy-149543",
-      "title": "Python Engineer",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:20:04+00:00",
-      "url": "https://jobicy.com/jobs/149543-python-engineer"
-    },
-    {
-      "id": "jobicy-149547",
-      "title": "Site Reliability Engineer",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Devops",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:15:08+00:00",
-      "url": "https://jobicy.com/jobs/149547-site-reliability-engineer"
-    },
-    {
-      "id": "jobicy-149544",
-      "title": "Senior Site Reliability / Gitops Engineer",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Devops",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:15:07+00:00",
-      "url": "https://jobicy.com/jobs/149544-senior-site-reliability-gitops-engineer"
-    },
-    {
-      "id": "jobicy-149545",
-      "title": "Ubuntu Sales Engineer (Entry-Level)",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:15:04+00:00",
-      "url": "https://jobicy.com/jobs/149545-ubuntu-sales-engineer-entry-level"
-    },
-    {
-      "id": "jobicy-149550",
-      "title": "Security Software Engineer",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-08-22T16:10:07+00:00",
-      "url": "https://jobicy.com/jobs/149550-security-software-engineer"
-    },
-    {
-      "id": "jobicy-149551",
-      "title": "Performance Engineer - Open Source",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-22T16:10:06+00:00",
-      "url": "https://jobicy.com/jobs/149551-performance-engineer-open-source"
-    },
-    {
-      "id": "jobicy-149552",
-      "title": "Software Engineer - App Stores",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-22T16:10:04+00:00",
-      "url": "https://jobicy.com/jobs/149552-software-engineer-app-stores"
-    },
-    {
-      "id": "jobicy-149549",
-      "title": "Enterprise Project Manager",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-22T16:10:03+00:00",
-      "url": "https://jobicy.com/jobs/149549-enterprise-project-manager"
-    },
-    {
-      "id": "jobicy-149553",
-      "title": "Site Reliability / Gitops Engineer",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Devops",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-22T16:10:02+00:00",
-      "url": "https://jobicy.com/jobs/149553-site-reliability-gitops-engineer"
-    },
-    {
-      "id": "jobicy-144246",
-      "title": "AI Engineer (Latam, Remote)",
-      "company": "Kubikware",
-      "location": "LATAM",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-22T16:05:06+00:00",
-      "url": "https://jobicy.com/jobs/144246-ai-engineer-latam-remote"
-    },
-    {
-      "id": "jobicy-149503",
-      "title": "Partner Solutions Architect",
-      "company": "Nebius",
-      "location": "Europe",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-22T15:58:26+00:00",
-      "url": "https://jobicy.com/jobs/149503-partner-solutions-architect"
     }
   ]
 }
