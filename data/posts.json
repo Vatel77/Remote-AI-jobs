@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "title": "Remote AI Engineer Salaries in 2025: What You're Worth and How to Land $250k+",
+      "slug": "remote-ai-engineer-salaries-2025-career-guide",
+      "excerpt": "Discover the true market compensation for remote AI and ML engineers in 2025 across top global tech hubs and startups. Learn which skills drive top-tier salaries and how to position your portfolio for premium remote roles.",
+      "content": "<h2>The State of Remote AI Hiring in 2025</h2><p>The tech hiring market has stabilized into a distinct bifurcation: while general software engineering compensation has normalized, demand for specialized Artificial Intelligence (AI) and Machine Learning (ML) talent continues to reach historic highs. Companies ranging from seed-stage AI startups to Fortune 500 enterprises are aggressively hiring remote-first engineers who can bridge the gap between theoretical research and production-grade software.</p><h2>2025 Remote AI Compensation Benchmarks</h2><p>Remote compensation depends significantly on geographic tiering, specialization, and proven production experience. Here is what senior-level remote engineers are commanding in the US and globally:</p><ul><li><strong>LLM & GenAI Application Engineer:</strong> $175,000 – $240,000 base + equity</li><li><strong>MLOps & Infrastructure Engineer:</strong> $190,000 – $265,000 base + equity</li><li><strong>Foundation Model & Research Engineer:</strong> $240,000 – $380,000+ base + substantial equity</li><li><strong>AI Solutions Architect (Remote/Client-Facing):</strong> $180,000 – $250,000 base + performance bonus</li></ul><h2>The In-Demand Tech Stack Driving Top Salaries</h2><p>Recruiters are filtering candidates based on hands-on experience with modern, high-throughput AI infrastructure. If your resume highlights these core capabilities, you immediately qualify for the top compensation bracket:</p><ul><li><strong>Inference Optimization:</strong> vLLM, TensorRT-LLM, quantization methods (AWQ, GPTQ), and GPU memory management.</li><li><strong>Advanced Agentic Frameworks:</strong> LangGraph, LlamaIndex workflows, multi-agent orchestration, and deterministic fallback design.</li><li><strong>Vector Architecture & Retrieval:</strong> Hybrid search pipelines (Dense + BM25), Qdrant, Pinecone, and custom reranking models.</li><li><strong>Evaluation & Observability:</strong> RAGAS, Arize Phoenix, LangSmith, and automated benchmark pipelines for hallucinations and drift.</li></ul><h2>How to Stand Out in Remote AI Technical Screens</h2><p>Having tutorials or generic Hugging Face wrapper apps on your GitHub will no longer land senior interviews. Hiring managers are looking for <em>production depth</em>.</p><ol><li><strong>Demonstrate Cost & Latency Optimization:</strong> Show how you cut token costs by 60% using semantic caching and dynamic routing, or reduced p99 latency under heavy concurrent loads.</li><li><strong>Publish Reproducible Benchmarks:</strong> Document your evaluations publicly. Share how your fine-tuned small language model (SLM) outperformed a commercial API on domain-specific edge cases.</li><li><strong>Master Systems Design for AI:</strong> Be prepared to design scalable data ingestion pipelines, model deployment lifecycles, and low-latency serving architectures under strict budget constraints.</li></ol><h2>Navigating Remote Compensation Negotiations</h2><p>When negotiating for remote AI roles, remember that US-based startups frequently offer localized or location-agnostic USD compensation. Always ask upfront if the band is pegged to the company's headquarters or the candidate's residence. Emphasize your ability to work autonomously, communicate asynchronously, and deliver immediate business impact to unlock top-of-band offers.</p>",
+      "tags": [
+        "ai-jobs",
+        "remote-work",
+        "tech-salaries",
+        "career-advice",
+        "machine-learning"
+      ],
+      "id": "1788607928425",
+      "author": "AI Agent",
+      "date": "2026-09-05"
+    },
+    {
       "title": "Remote AI Engineer Salaries in 2025: Benchmarks, Trends, and the Ultimate Negotiation Playbook",
       "slug": "remote-ai-engineer-salaries-2025-benchmarks-guide",
       "excerpt": "Discover the latest 2025 compensation benchmarks for remote Artificial Intelligence and Machine Learning engineers. Learn what top tech firms are paying and get battle-tested negotiation strategies straight from a senior technical recruiter.",
