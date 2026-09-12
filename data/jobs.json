@@ -1,6 +1,232 @@
 {
   "jobs": [
     {
+      "id": "jobicy-153082",
+      "title": "HR AI & Automation Operations Lead",
+      "company": "Remote",
+      "location": "LATAM, Canada, USA",
+      "salary": "USD 46,150 - 129,800/yearly",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T17:39:41+00:00",
+      "url": "https://jobicy.com/jobs/153082-hr-ai-automation-operations-lead"
+    },
+    {
+      "id": "jobicy-153065",
+      "title": "Regional VP, Sales",
+      "company": "Sierra",
+      "location": "Spain",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T13:21:15+00:00",
+      "url": "https://jobicy.com/jobs/153065-regional-vp-sales"
+    },
+    {
+      "id": "jobicy-153037",
+      "title": "AI Senior Engineer (Graph)",
+      "company": "Able",
+      "location": "LATAM",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T13:13:09+00:00",
+      "url": "https://jobicy.com/jobs/153037-ai-senior-engineer-graph"
+    },
+    {
+      "id": "jobicy-153035",
+      "title": "Client Success Manager, Hospital Solutions",
+      "company": "Doximity",
+      "location": "USA",
+      "salary": "USD 90,667 - 137,520/yearly",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T13:13:07+00:00",
+      "url": "https://jobicy.com/jobs/153035-client-success-manager-hospital-solutions"
+    },
+    {
+      "id": "jobicy-153029",
+      "title": "Software Engineer III | AI/ML",
+      "company": "ExtraHop",
+      "location": "USA",
+      "salary": "USD 145,000 - 163,000/yearly",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "Machine Learning",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T13:04:30+00:00",
+      "url": "https://jobicy.com/jobs/153029-software-engineer-iii-ai-ml"
+    },
+    {
+      "id": "jobicy-153021",
+      "title": "Senior Data Scientist",
+      "company": "ExtraHop",
+      "location": "USA",
+      "salary": "USD 165,000 - 180,000/yearly",
+      "tags": [
+        "Remote",
+        "Data and Analytics",
+        "Data"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T13:01:46+00:00",
+      "url": "https://jobicy.com/jobs/153021-senior-data-scientist-2"
+    },
+    {
+      "id": "jobicy-153014",
+      "title": "Binance Accelerator Program - Applied AI Application Engineer",
+      "company": "Binance",
+      "location": "APAC",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T12:59:22+00:00",
+      "url": "https://jobicy.com/jobs/153014-binance-accelerator-program-applied-ai-application-engineer"
+    },
+    {
+      "id": "jobicy-153012",
+      "title": "Binance Accelerator Program - AI Intelligence Efficiency Engineer",
+      "company": "Binance",
+      "location": "APAC",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T12:58:41+00:00",
+      "url": "https://jobicy.com/jobs/153012-binance-accelerator-program-ai-intelligence-efficiency-engineer"
+    },
+    {
+      "id": "jobicy-153010",
+      "title": "Analytics & AI Account Executive, Sales",
+      "company": "EDB",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T12:57:59+00:00",
+      "url": "https://jobicy.com/jobs/153010-analytics-ai-account-executive-sales"
+    },
+    {
+      "id": "jobicy-153008",
+      "title": "Manager, Engineering | ML Infrastructure & Tooling",
+      "company": "ExtraHop",
+      "location": "USA",
+      "salary": "USD 170,000 - 195,000/yearly",
+      "tags": [
+        "Remote",
+        "Devops",
+        "Machine Learning"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T12:57:19+00:00",
+      "url": "https://jobicy.com/jobs/153008-manager-engineering-ml-infrastructure-tooling"
+    },
+    {
+      "id": "jobicy-153007",
+      "title": "Case Management Coordinator",
+      "company": "Abby Care",
+      "location": "USA",
+      "salary": "USD 64,000 - 77,000/yearly",
+      "tags": [
+        "Remote",
+        "Medical",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T12:56:59+00:00",
+      "url": "https://jobicy.com/jobs/153007-case-management-coordinator"
+    },
+    {
+      "id": "jobicy-153006",
+      "title": "Analytics & AI Account Executive, Public Sector Sales",
+      "company": "EDB",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T12:56:38+00:00",
+      "url": "https://jobicy.com/jobs/153006-analytics-ai-account-executive-public-sector-sales"
+    },
+    {
+      "id": "jobicy-153003",
+      "title": "Account Executive",
+      "company": "EDB",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T12:55:35+00:00",
+      "url": "https://jobicy.com/jobs/153003-account-executive-18"
+    },
+    {
+      "id": "jobicy-150335",
+      "title": "Customer Success Manager - Moveworks",
+      "company": "ServiceNow",
+      "location": "Canada, USA",
+      "salary": "USD 89,000 - 133,000/yearly",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T12:41:56+00:00",
+      "url": "https://jobicy.com/jobs/150335-customer-success-manager-moveworks"
+    },
+    {
+      "id": "jobicy-149068",
+      "title": "Senior Customer Solution Engineer — AI Native/Consumption Quote to Cash",
+      "company": "Zuora",
+      "location": "USA",
+      "salary": "USD 136,800 - 177,100/yearly",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-11T12:30:08+00:00",
+      "url": "https://jobicy.com/jobs/149068-senior-customer-solution-engineer-ai-native-consumption-quote-to-cash"
+    },
+    {
       "id": "jobicy-152993",
       "title": "Senior Brand Designer, Experiential",
       "company": "Synthesia",
@@ -11,7 +237,7 @@
         "Design",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-09-10T19:42:07+00:00",
       "url": "https://jobicy.com/jobs/152993-senior-brand-designer-experiential"
     },
@@ -26,7 +252,7 @@
         "Customer Service",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-09-10T19:40:47+00:00",
       "url": "https://jobicy.com/jobs/152989-technical-support-specialist-german-speaking"
     },
@@ -41,7 +267,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-09-10T19:39:25+00:00",
       "url": "https://jobicy.com/jobs/152985-senior-engineering-manager-growth"
     },
@@ -56,7 +282,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-09-10T19:38:44+00:00",
       "url": "https://jobicy.com/jobs/152983-business-development-associate-vietnam"
     },
@@ -86,7 +312,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-09-10T19:37:26+00:00",
       "url": "https://jobicy.com/jobs/152979-blockchain-security-expert-intern-ai-track"
     },
@@ -101,7 +327,7 @@
         "Data and Analytics",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-09-10T19:36:42+00:00",
       "url": "https://jobicy.com/jobs/152977-staff-research-engineer-interactive-avatars"
     },
@@ -116,7 +342,7 @@
         "Sales",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-09-10T19:35:19+00:00",
       "url": "https://jobicy.com/jobs/152973-sales-development-representative-united-kingdom"
     },
@@ -131,7 +357,7 @@
         "Data and Analytics",
         "Data"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-09-10T19:34:57+00:00",
       "url": "https://jobicy.com/jobs/152972-research-engineer-in-data"
     },
@@ -146,7 +372,7 @@
         "Customer Service",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-09-10T19:33:58+00:00",
       "url": "https://jobicy.com/jobs/152969-customer-success-advisor"
     },
@@ -161,7 +387,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "Just now",
+      "postedAt": "2 days ago",
       "postedAtISO": "2026-09-10T19:33:38+00:00",
       "url": "https://jobicy.com/jobs/152968-secops-security-engineer-staff-level-l6"
     },
@@ -4281,232 +4507,6 @@
       "postedAt": "Just now",
       "postedAtISO": "2026-08-31T16:50:55+00:00",
       "url": "https://jobicy.com/jobs/152223-implementation-engineer-3"
-    },
-    {
-      "id": "jobicy-152222",
-      "title": "Sales Development Representative",
-      "company": "Deepgram",
-      "location": "USA",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T16:50:35+00:00",
-      "url": "https://jobicy.com/jobs/152222-sales-development-representative-9"
-    },
-    {
-      "id": "jobicy-152220",
-      "title": "Full Stack Engineer (Enterprise)",
-      "company": "Roboflow",
-      "location": "USA",
-      "salary": "USD 165,000 - 195,000/yearly",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T16:49:56+00:00",
-      "url": "https://jobicy.com/jobs/152220-full-stack-engineer-enterprise"
-    },
-    {
-      "id": "jobicy-152219",
-      "title": "Research Staff, Voice AI Foundations",
-      "company": "Deepgram",
-      "location": "USA",
-      "salary": "USD 150,000 - 250,000/yearly",
-      "tags": [
-        "Remote",
-        "Data and Analytics",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T16:49:37+00:00",
-      "url": "https://jobicy.com/jobs/152219-research-staff-voice-ai-foundations"
-    },
-    {
-      "id": "jobicy-152216",
-      "title": "Edge Engineer",
-      "company": "Roboflow",
-      "location": "USA",
-      "salary": "USD 95,000 - 105,000/yearly",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T16:48:43+00:00",
-      "url": "https://jobicy.com/jobs/152216-edge-engineer"
-    },
-    {
-      "id": "jobicy-152215",
-      "title": "Strategic Account Executive",
-      "company": "Deepgram",
-      "location": "USA",
-      "salary": "USD 150,000 - 170,000/yearly",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T16:48:25+00:00",
-      "url": "https://jobicy.com/jobs/152215-strategic-account-executive-5"
-    },
-    {
-      "id": "jobicy-152204",
-      "title": "Machine Learning Engineer - Inference Maintainer & Developer Experience",
-      "company": "Roboflow",
-      "location": "USA",
-      "salary": "USD 155,000 - 180,000/yearly",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "Machine Learning",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T16:22:48+00:00",
-      "url": "https://jobicy.com/jobs/152204-machine-learning-engineer-inference-maintainer-developer-experience"
-    },
-    {
-      "id": "jobicy-152196",
-      "title": "Junior Expansion Account Executive (Small Business Accounts)",
-      "company": "Nextiva",
-      "location": "Mexico",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T14:02:51+00:00",
-      "url": "https://jobicy.com/jobs/152196-junior-expansion-account-executive-small-business-accounts"
-    },
-    {
-      "id": "jobicy-152195",
-      "title": "Advanced Software Engineer - Customer Success",
-      "company": "Feedzai",
-      "location": "Brazil",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T14:02:28+00:00",
-      "url": "https://jobicy.com/jobs/152195-advanced-software-engineer-customer-success"
-    },
-    {
-      "id": "jobicy-147864",
-      "title": "Senior Sales Executive, Health, Medicare & Life",
-      "company": "QuinStreet",
-      "location": "USA",
-      "salary": "USD 120,000 - 150,000/yearly",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T05:15:07+00:00",
-      "url": "https://jobicy.com/jobs/147864-senior-sales-executive-health-medicare-life"
-    },
-    {
-      "id": "jobicy-152158",
-      "title": "Senior Cyber Threat Intelligence Analyst",
-      "company": "TRM Labs",
-      "location": "UK, USA",
-      "salary": "USD 130,000 - 160,000/yearly",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T05:10:39+00:00",
-      "url": "https://jobicy.com/jobs/152158-senior-cyber-threat-intelligence-analyst"
-    },
-    {
-      "id": "jobicy-152155",
-      "title": "Staff Cyber Threat Intelligence Analyst",
-      "company": "TRM Labs",
-      "location": "UK, USA",
-      "salary": "USD 160,000 - 190,000/yearly",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T05:09:58+00:00",
-      "url": "https://jobicy.com/jobs/152155-staff-cyber-threat-intelligence-analyst"
-    },
-    {
-      "id": "jobicy-152152",
-      "title": "Account Director, Public Sector (DACH)",
-      "company": "TRM Labs",
-      "location": "EMEA",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T05:09:15+00:00",
-      "url": "https://jobicy.com/jobs/152152-account-director-public-sector-dach"
-    },
-    {
-      "id": "jobicy-152148",
-      "title": "Senior Revenue Enablement Manager",
-      "company": "Cribl",
-      "location": "UK",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T05:04:07+00:00",
-      "url": "https://jobicy.com/jobs/152148-senior-revenue-enablement-manager"
-    },
-    {
-      "id": "jobicy-152145",
-      "title": "Sales Engineer, Italy",
-      "company": "Cribl",
-      "location": "Italy",
-      "salary": "EUR 84,000 - 130,000/yearly",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T05:03:19+00:00",
-      "url": "https://jobicy.com/jobs/152145-sales-engineer-italy"
-    },
-    {
-      "id": "jobicy-152142",
-      "title": "Partner Solutions Engineer, Southern Europe",
-      "company": "Cribl",
-      "location": "France",
-      "salary": "EUR 97,400 - 122,000/yearly",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-08-31T05:02:36+00:00",
-      "url": "https://jobicy.com/jobs/152142-partner-solutions-engineer-southern-europe"
     }
   ]
 }
