@@ -25,12 +25,17 @@ function isRetryable(status, errorBody) {
   return code === 'UNAVAILABLE' || code === 'RESOURCE_EXHAUSTED';
 }
 
-// Try the newest flash model first; fall back to older generations if it's
-// under sustained load rather than giving up (gemini-3.7-flash is on
-// introductory pricing, which tends to draw heavy traffic). A third option
-// further lowers the odds of every model being overloaded at once — real
-// runs have hit both 3.7 and 3.6 saturated simultaneously.
-const MODEL_FALLBACKS = ['gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-2.5-flash'];
+// Try the newest flash model first; fall back to the previous generation if
+// it's under sustained load rather than giving up (gemini-3.7-flash is on
+// introductory pricing, which tends to draw heavy traffic).
+//
+// gemini-2.5-flash was tried as a third fallback but Google rejects it for
+// this account ("no longer available to new users") — a dummy-key check
+// can't detect that kind of per-account eligibility restriction, it only
+// tells you whether the model id exists at all. Removed rather than guess
+// another model id blindly; a real third fallback would need to be tested
+// against the actual GEMINI_API_KEY, not a dummy one.
+const MODEL_FALLBACKS = ['gemini-3.7-flash', 'gemini-3.6-flash'];
 
 async function callGeminiWithRetry(prompt, model, maxAttempts = 3) {
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
