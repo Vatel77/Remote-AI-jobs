@@ -29,13 +29,15 @@ function isRetryable(status, errorBody) {
 // it's under sustained load rather than giving up (gemini-3.7-flash is on
 // introductory pricing, which tends to draw heavy traffic).
 //
-// gemini-2.5-flash was tried as a third fallback but Google rejects it for
-// this account ("no longer available to new users") — a dummy-key check
-// can't detect that kind of per-account eligibility restriction, it only
-// tells you whether the model id exists at all. Removed rather than guess
-// another model id blindly; a real third fallback would need to be tested
-// against the actual GEMINI_API_KEY, not a dummy one.
-const MODEL_FALLBACKS = ['gemini-3.7-flash', 'gemini-3.6-flash'];
+// gemini-2.5-flash and gemini-2.5-flash-lite were tried as a third fallback
+// but Google rejects both for this account ("no longer available to new
+// users") — a dummy-key check can't detect that per-account eligibility
+// restriction, it only tells you whether the model id exists at all.
+// gemini-3.5-flash-lite was verified with a real generateContent call
+// against the actual GEMINI_API_KEY (not a dummy one) and works; being a
+// "lite" tier model it's also likely to see less contention than the
+// flagship flash models everyone reaches for first.
+const MODEL_FALLBACKS = ['gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash-lite'];
 
 async function callGeminiWithRetry(prompt, model, maxAttempts = 3) {
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
