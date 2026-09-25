@@ -1,6 +1,396 @@
 {
   "jobs": [
     {
+      "id": "jobicy-151636",
+      "title": "Head of AI Engineering - NCT",
+      "company": "Banyan Software",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:25:27+00:00",
+      "url": "https://jobicy.com/jobs/151636-head-of-ai-engineering-nct"
+    },
+    {
+      "id": "jobicy-151630",
+      "title": "Chief Product Technology Officer - Classter",
+      "company": "Banyan Software",
+      "location": "Greece",
+      "salary": "EUR 100,000 - 120,000/yearly",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:25:19+00:00",
+      "url": "https://jobicy.com/jobs/151630-chief-product-technology-officer-classter"
+    },
+    {
+      "id": "jobicy-151640",
+      "title": "Senior Data Scientist, Product",
+      "company": "RevenueCat",
+      "location": "EMEA, LATAM, Canada, USA",
+      "salary": "USD 220,000 - 220,000/yearly",
+      "tags": [
+        "Remote",
+        "Data and Analytics",
+        "Data"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:25:15+00:00",
+      "url": "https://jobicy.com/jobs/151640-senior-data-scientist-product"
+    },
+    {
+      "id": "jobicy-151547",
+      "title": "Commercial Account Executive - Benelux",
+      "company": "Chainguard",
+      "location": "Netherlands",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:20:29+00:00",
+      "url": "https://jobicy.com/jobs/151547-commercial-account-executive-benelux"
+    },
+    {
+      "id": "jobicy-151593",
+      "title": "Growth Marketing Director",
+      "company": "Nabla",
+      "location": "USA",
+      "salary": "USD 140,000 - 180,000/yearly",
+      "tags": [
+        "Remote",
+        "Marketing",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:20:26+00:00",
+      "url": "https://jobicy.com/jobs/151593-growth-marketing-director"
+    },
+    {
+      "id": "jobicy-151574",
+      "title": "Software Engineer — AI-Native CAD Integrations",
+      "company": "Quilter",
+      "location": "USA",
+      "salary": "USD 150,000 - 160,000/yearly",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:20:20+00:00",
+      "url": "https://jobicy.com/jobs/151574-software-engineer-ai-native-cad-integrations"
+    },
+    {
+      "id": "jobicy-151571",
+      "title": "Staff ML Systems Engineer",
+      "company": "Quilter",
+      "location": "USA",
+      "salary": "USD 180,000 - 200,000/yearly",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "Machine Learning"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:20:17+00:00",
+      "url": "https://jobicy.com/jobs/151571-staff-ml-systems-engineer"
+    },
+    {
+      "id": "jobicy-151559",
+      "title": "Account Executive - Velocity",
+      "company": "Emburse",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:20:11+00:00",
+      "url": "https://jobicy.com/jobs/151559-account-executive-velocity"
+    },
+    {
+      "id": "jobicy-151564",
+      "title": "Sales Executive New Business - Nordics",
+      "company": "Emburse",
+      "location": "UK",
+      "salary": "GBP 99,000 - 114,000/yearly",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:20:09+00:00",
+      "url": "https://jobicy.com/jobs/151564-sales-executive-new-business-nordics"
+    },
+    {
+      "id": "jobicy-151549",
+      "title": "Senior Software Engineer - Verification Platform",
+      "company": "Veriff",
+      "location": "Estonia, Spain",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:20:08+00:00",
+      "url": "https://jobicy.com/jobs/151549-senior-software-engineer-verification-platform"
+    },
+    {
+      "id": "jobicy-151566",
+      "title": "Senior ML Engineer",
+      "company": "Quilter",
+      "location": "USA",
+      "salary": "USD 180,000 - 200,000/yearly",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "Machine Learning"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:20:05+00:00",
+      "url": "https://jobicy.com/jobs/151566-senior-ml-engineer"
+    },
+    {
+      "id": "jobicy-147408",
+      "title": "Senior Backend Software Engineer (Observability)",
+      "company": "Nebius",
+      "location": "Netherlands",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:15:24+00:00",
+      "url": "https://jobicy.com/jobs/147408-senior-backend-software-engineer-observability"
+    },
+    {
+      "id": "jobicy-149642",
+      "title": "Customer Engineer",
+      "company": "Cresta",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Customer Service",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:15:21+00:00",
+      "url": "https://jobicy.com/jobs/149642-customer-engineer-2"
+    },
+    {
+      "id": "jobicy-151446",
+      "title": "Solutions Architect - MENA",
+      "company": "Deepgram",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:15:14+00:00",
+      "url": "https://jobicy.com/jobs/151446-solutions-architect-mena"
+    },
+    {
+      "id": "jobicy-149665",
+      "title": "Senior Data Engineering Manager",
+      "company": "YipitData",
+      "location": "USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "Data"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:10:19+00:00",
+      "url": "https://jobicy.com/jobs/149665-senior-data-engineering-manager"
+    },
+    {
+      "id": "jobicy-151541",
+      "title": "AI Transformation Owner, Product & Design",
+      "company": "GitLab",
+      "location": "Canada, UK, USA",
+      "salary": "USD 203,200 - 345,600/yearly",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:10:18+00:00",
+      "url": "https://jobicy.com/jobs/151541-ai-transformation-owner-product-design"
+    },
+    {
+      "id": "jobicy-151540",
+      "title": "Product Data Scientist",
+      "company": "Tripadvisor",
+      "location": "Poland",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Data and Analytics",
+        "Data"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:10:17+00:00",
+      "url": "https://jobicy.com/jobs/151540-product-data-scientist"
+    },
+    {
+      "id": "jobicy-151536",
+      "title": "Senior AI Engineer",
+      "company": "Sonatus",
+      "location": "Poland",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:10:14+00:00",
+      "url": "https://jobicy.com/jobs/151536-senior-ai-engineer-7"
+    },
+    {
+      "id": "jobicy-151535",
+      "title": "Principal Product Data Scientist",
+      "company": "Tripadvisor",
+      "location": "Poland",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Data and Analytics",
+        "Data"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:10:13+00:00",
+      "url": "https://jobicy.com/jobs/151535-principal-product-data-scientist"
+    },
+    {
+      "id": "jobicy-147425",
+      "title": "Strategic Account Executive - Based in London or Home Counties",
+      "company": "EDB",
+      "location": "EMEA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:10:09+00:00",
+      "url": "https://jobicy.com/jobs/147425-strategic-account-executive-based-in-london-or-home-counties"
+    },
+    {
+      "id": "jobicy-151539",
+      "title": "Principal Product Manager - Pricing and Personalization",
+      "company": "Hopper",
+      "location": "Ireland",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-25T04:10:07+00:00",
+      "url": "https://jobicy.com/jobs/151539-principal-product-manager-pricing-and-personalization"
+    },
+    {
+      "id": "jobicy-154052",
+      "title": "AI Operations Lead, Toast IQ",
+      "company": "Toast",
+      "location": "USA",
+      "salary": "USD 142,000 - 290,000/yearly",
+      "tags": [
+        "Remote",
+        "All others",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-24T18:46:45+00:00",
+      "url": "https://jobicy.com/jobs/154052-ai-operations-lead-toast-iq"
+    },
+    {
+      "id": "jobicy-154049",
+      "title": "Account Manager (Property)",
+      "company": "SOCi",
+      "location": "USA",
+      "salary": "USD 70,000 - 90,000/yearly",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-24T18:41:44+00:00",
+      "url": "https://jobicy.com/jobs/154049-account-manager-property"
+    },
+    {
+      "id": "jobicy-154046",
+      "title": "Account Manager",
+      "company": "SOCi",
+      "location": "USA",
+      "salary": "USD 75,000 - 100,000/yearly",
+      "tags": [
+        "Remote",
+        "Sales",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-24T18:41:43+00:00",
+      "url": "https://jobicy.com/jobs/154046-account-manager-8"
+    },
+    {
+      "id": "jobicy-154020",
+      "title": "Full-Stack Engineer (Front-End Leaning)",
+      "company": "Elevenlabs",
+      "location": "Bulgaria, Ireland, Netherlands, Poland, Portugal, Sweden, UK, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-24T12:27:05+00:00",
+      "url": "https://jobicy.com/jobs/154020-full-stack-engineer-front-end-leaning"
+    },
+    {
+      "id": "jobicy-154018",
+      "title": "Full-Stack Engineer (Back-End Leaning)",
+      "company": "Elevenlabs",
+      "location": "Bulgaria, Germany, Ireland, Netherlands, Poland, Portugal, Spain, UK, USA",
+      "salary": "Competitive",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "AI"
+      ],
+      "postedAt": "Just now",
+      "postedAtISO": "2026-09-24T12:27:03+00:00",
+      "url": "https://jobicy.com/jobs/154018-full-stack-engineer-back-end-leaning"
+    },
+    {
       "id": "jobicy-149520",
       "title": "Junior Linux Kernel Engineer - Ubuntu",
       "company": "Canonical",
@@ -1588,7 +1978,7 @@
         "All others",
         "AI"
       ],
-      "postedAt": "3 days ago",
+      "postedAt": "4 days ago",
       "postedAtISO": "2026-09-21T12:55:11",
       "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091144"
     },
@@ -2833,7 +3223,7 @@
         "Design",
         "AI"
       ],
-      "postedAt": "6 days ago",
+      "postedAt": "7 days ago",
       "postedAtISO": "2026-09-18T16:43:22",
       "url": "https://remotive.com/remote-jobs/design/frontend-web-application-developer-2091141"
     },
@@ -2848,7 +3238,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "6 days ago",
+      "postedAt": "7 days ago",
       "postedAtISO": "2026-09-18T15:10:28",
       "url": "https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140"
     },
@@ -2938,7 +3328,7 @@
         "Artificial Intelligence",
         "AI"
       ],
-      "postedAt": "6 days ago",
+      "postedAt": "7 days ago",
       "postedAtISO": "2026-09-18T12:23:56",
       "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131"
     },
@@ -3345,7 +3735,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "7 days ago",
+      "postedAt": "8 days ago",
       "postedAtISO": "2026-09-17T13:22:05",
       "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130"
     },
@@ -3735,7 +4125,7 @@
         "Data and Analytics",
         "Data"
       ],
-      "postedAt": "8 days ago",
+      "postedAt": "9 days ago",
       "postedAtISO": "2026-09-16T12:35:28",
       "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129"
     },
@@ -3750,7 +4140,7 @@
         "Software Development",
         "AI"
       ],
-      "postedAt": "9 days ago",
+      "postedAt": "10 days ago",
       "postedAtISO": "2026-09-16T10:10:53",
       "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266"
     },
@@ -4113,396 +4503,6 @@
       "postedAt": "2 days ago",
       "postedAtISO": "2026-09-15T04:45:26+00:00",
       "url": "https://jobicy.com/jobs/150820-director-platform-and-ai-sales"
-    },
-    {
-      "id": "jobicy-150767",
-      "title": "AI Technical Mentor - Independent Contractor (US Canada, Europe, MENA, APAC)",
-      "company": "Udacity",
-      "location": "APAC, EMEA, Canada, Europe, USA",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-09-15T04:45:24+00:00",
-      "url": "https://jobicy.com/jobs/150767-ai-technical-mentor-independent-contractor-us-canada-europe-mena-india-apac-timezones"
-    },
-    {
-      "id": "jobicy-150773",
-      "title": "Staff Product Designer",
-      "company": "OpenSea",
-      "location": "Europe, USA",
-      "salary": "USD 148,750 - 275,000/year",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-09-15T04:45:20+00:00",
-      "url": "https://jobicy.com/jobs/150773-staff-product-designer-5"
-    },
-    {
-      "id": "jobicy-150765",
-      "title": "AI Mentor (Independent Contractor) - Business Leader Programs",
-      "company": "Udacity",
-      "location": "USA",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-09-15T04:45:19+00:00",
-      "url": "https://jobicy.com/jobs/150765-ai-mentor-independent-contractor-business-leader-programs"
-    },
-    {
-      "id": "jobicy-150759",
-      "title": "Account Executive, Commercial Accounts (Public)",
-      "company": "Veeam Software",
-      "location": "Germany",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-09-15T04:45:14+00:00",
-      "url": "https://jobicy.com/jobs/150759-account-executive-commercial-accounts-public"
-    },
-    {
-      "id": "jobicy-150755",
-      "title": "Partnership Director",
-      "company": "Nabla",
-      "location": "USA",
-      "salary": "USD 120,000 - 160,000/year",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-09-15T04:45:08+00:00",
-      "url": "https://jobicy.com/jobs/150755-partnership-director"
-    },
-    {
-      "id": "jobicy-150752",
-      "title": "Mid-Market Account Executive",
-      "company": "Nabla",
-      "location": "USA",
-      "salary": "USD 90,000 - 120,000/year",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-09-15T04:45:04+00:00",
-      "url": "https://jobicy.com/jobs/150752-mid-market-account-executive"
-    },
-    {
-      "id": "jobicy-150805",
-      "title": "Enterprise Account Executive - Northeast/Midwest",
-      "company": "Safe Security",
-      "location": "UK, USA",
-      "salary": "USD 150,000 - 160,000/yearly",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-09-15T04:40:28+00:00",
-      "url": "https://jobicy.com/jobs/150805-enterprise-account-executive-northeast-midwest"
-    },
-    {
-      "id": "jobicy-150804",
-      "title": "Enterprise Account Executive - London",
-      "company": "Safe Security",
-      "location": "UK",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "2 days ago",
-      "postedAtISO": "2026-09-15T04:40:27+00:00",
-      "url": "https://jobicy.com/jobs/150804-enterprise-account-executive-london"
-    },
-    {
-      "id": "jobicy-150775",
-      "title": "Staff Platform Engineer",
-      "company": "OpenSea",
-      "location": "Europe, USA",
-      "salary": "USD 161,500 - 345,000/year",
-      "tags": [
-        "Remote",
-        "Devops",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-15T04:40:17+00:00",
-      "url": "https://jobicy.com/jobs/150775-staff-platform-engineer-2"
-    },
-    {
-      "id": "jobicy-150667",
-      "title": "Data Scientist, Product Analytics",
-      "company": "Meta",
-      "location": "USA",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Data and Analytics",
-        "Data"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-15T04:40:16+00:00",
-      "url": "https://jobicy.com/jobs/150667-data-scientist-product-analytics"
-    },
-    {
-      "id": "jobicy-149241",
-      "title": "Canada- Sr Application Engineer (Salesforce-Agentforce Ai)",
-      "company": "PointClickCare",
-      "location": "Canada",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-15T04:30:27+00:00",
-      "url": "https://jobicy.com/jobs/149241-canada-sr-application-engineer-salesforce-agentforce-ai"
-    },
-    {
-      "id": "jobicy-149262",
-      "title": "Head of AI",
-      "company": "AssetWatch",
-      "location": "USA",
-      "salary": "USD 244,000 - 282,000/yearly",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-15T04:30:14+00:00",
-      "url": "https://jobicy.com/jobs/149262-head-of-ai"
-    },
-    {
-      "id": "remotive-2069746",
-      "title": "Tech Lead Full-Stack Rails Engineer",
-      "company": "Mitre Media",
-      "location": "USA, Canada, USA timezones",
-      "salary": "$170k - $200k",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "10 days ago",
-      "postedAtISO": "2026-09-14T20:33:27",
-      "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746"
-    },
-    {
-      "id": "jobicy-153297",
-      "title": "Senior Frontend Software Engineer (AI Receptionist)",
-      "company": "Cresta",
-      "location": "Canada, USA",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:32:26+00:00",
-      "url": "https://jobicy.com/jobs/153297-senior-frontend-software-engineer-ai-receptionist"
-    },
-    {
-      "id": "jobicy-153291",
-      "title": "Senior Product Manager, AI Receptionist",
-      "company": "Boulevard",
-      "location": "USA",
-      "salary": "USD 113,400 - 161,300/yearly",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:32:26+00:00",
-      "url": "https://jobicy.com/jobs/153291-senior-product-manager-ai-receptionist"
-    },
-    {
-      "id": "jobicy-153296",
-      "title": "Executive Assistant, Marketing",
-      "company": "Deepgram",
-      "location": "USA",
-      "salary": "USD 127,000 - 160,000/yearly",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:32:23+00:00",
-      "url": "https://jobicy.com/jobs/153296-executive-assistant-marketing"
-    },
-    {
-      "id": "jobicy-153289",
-      "title": "Senior Administrative Assistant",
-      "company": "Motive",
-      "location": "USA",
-      "salary": "USD 69,000 - 95,000/yearly",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:32:23+00:00",
-      "url": "https://jobicy.com/jobs/153289-senior-administrative-assistant"
-    },
-    {
-      "id": "jobicy-153286",
-      "title": "Senior AI Creative Innovator (Paid Ads)",
-      "company": "OKX",
-      "location": "APAC",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Design",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:14:23+00:00",
-      "url": "https://jobicy.com/jobs/153286-senior-ai-creative-innovator-paid-ads"
-    },
-    {
-      "id": "jobicy-153282",
-      "title": "Director, Client Services- APAC",
-      "company": "StackAdapt",
-      "location": "Australia, Singapore",
-      "salary": "SGD 182,920 - 251,515/yearly",
-      "tags": [
-        "Remote",
-        "Customer Service",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:14:23+00:00",
-      "url": "https://jobicy.com/jobs/153282-director-client-services-apac"
-    },
-    {
-      "id": "jobicy-153283",
-      "title": "Technical Project Manager",
-      "company": "Zone &#038; Co",
-      "location": "Philippines",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "All others",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:14:18+00:00",
-      "url": "https://jobicy.com/jobs/153283-technical-project-manager"
-    },
-    {
-      "id": "jobicy-153278",
-      "title": "Frontline Support Analyst",
-      "company": "Zone &#038; Co",
-      "location": "Philippines",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Customer Service",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:14:17+00:00",
-      "url": "https://jobicy.com/jobs/153278-frontline-support-analyst-2"
-    },
-    {
-      "id": "jobicy-153270",
-      "title": "Chief Information Security Officer",
-      "company": "UpGuard",
-      "location": "Australia",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:12:11+00:00",
-      "url": "https://jobicy.com/jobs/153270-chief-information-security-officer-2"
-    },
-    {
-      "id": "jobicy-153276",
-      "title": "Product Data Science Lead",
-      "company": "UpGuard",
-      "location": "Australia",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Data and Analytics",
-        "Data"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:12:10+00:00",
-      "url": "https://jobicy.com/jobs/153276-product-data-science-lead"
-    },
-    {
-      "id": "jobicy-153275",
-      "title": "Manager, GTM Engineering",
-      "company": "UpGuard",
-      "location": "Australia",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:12:10+00:00",
-      "url": "https://jobicy.com/jobs/153275-manager-gtm-engineering"
-    },
-    {
-      "id": "jobicy-153274",
-      "title": "Director, Global Solutions Engineering",
-      "company": "UpGuard",
-      "location": "Australia",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Sales",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:12:10+00:00",
-      "url": "https://jobicy.com/jobs/153274-director-global-solutions-engineering"
-    },
-    {
-      "id": "jobicy-153268",
-      "title": "Professional Photoshop Artists",
-      "company": "Toptal",
-      "location": "APAC, LATAM, Canada, Europe",
-      "salary": "Competitive",
-      "tags": [
-        "Remote",
-        "Design",
-        "AI"
-      ],
-      "postedAt": "Just now",
-      "postedAtISO": "2026-09-14T14:12:10+00:00",
-      "url": "https://jobicy.com/jobs/153268-professional-photoshop-artists"
     }
   ]
 }
