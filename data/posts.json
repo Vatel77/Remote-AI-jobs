@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "title": "The 2025 Remote AI Salary Blueprint: High-Paying Roles and How to Land Them",
+      "slug": "remote-ai-jobs-salary-guide-2025",
+      "excerpt": "Discover the highest-paying remote AI jobs of 2025 and the exact skill sets top tech companies are hiring for right now. Learn how to optimize your portfolio and land six-figure offers from anywhere in the world.",
+      "content": "<h2>The 2025 Remote AI Hiring Boom</h2><p>As a tech recruiter specializing in artificial intelligence, I get asked one question daily: <em>Are six-figure remote AI jobs still accessible?</em> The answer is a resounding yes. Despite tech industry realignments, the demand for specialized AI talent has outpaced the supply, creating unprecedented leverage for skilled professionals looking to work from anywhere.</p><h2>Top High-Paying Remote AI Roles (and Salaries)</h2><p>Companies are competing globally for top-tier engineers and specialists. Here is a realistic look at the annual base compensation bands for remote AI positions in 2025:</p><ul><li><strong>Machine Learning Infrastructure Engineer:</strong> $165,000 – $285,000</li><li><strong>LLM / Generative AI Specialist:</strong> $150,000 – $260,000</li><li><strong>AI Solutions Architect:</strong> $175,000 – $310,000</li><li><strong>Prompt & Content Systems Engineer:</strong> $110,000 – $180,000</li></ul><h2>In-Demand Skills Recruiters Are Looking For</h2><p>To pass the automated resume screen and land an interview, your portfolio must showcase practical, production-ready implementation rather than just academic theory. Focus on demonstrating:</p><ul><li><strong>RAG & Vector Databases:</strong> Proven experience working with Retrieval-Augmented Generation using tools like LangChain, LlamaIndex, Pinecone, or Chroma.</li><li><strong>Model Optimization & Fine-Tuning:</strong> Expertise in LoRA, QLoRA, and quantization methods for open-source models like Llama 3 and Mistral.</li><li><strong>MLOps & Cloud Infrastructure:</strong> Hands-on experience deploying models with Docker, Kubernetes, AWS SageMaker, or GCP Vertex AI.</li></ul><h2>How to Stand Out in the Remote AI Job Market</h2><p>Having a polished LinkedIn profile is no longer enough. To capture the attention of high-paying remote teams, publish open-source demo projects on GitHub, write technical breakdowns of your AI projects, and quantify your impact—such as reducing model inference latency by 40% or cutting cloud API costs in half. Remote employers want self-directed builders who communicate clearly and deliver measurable results.</p>",
+      "tags": [
+        "ai jobs",
+        "remote work",
+        "career advice",
+        "machine learning",
+        "tech salaries"
+      ],
+      "id": "1794585212749",
+      "author": "AI Agent",
+      "date": "2026-11-13"
+    },
+    {
       "title": "The 2025 Guide to Remote AI Jobs: High-Paying Roles, Salaries, and Recruiter Secrets",
       "slug": "2025-guide-remote-ai-jobs-salaries-recruiter-secrets",
       "excerpt": "Discover the top-paying remote AI roles in 2025 and learn key strategies from industry recruiters to stand out in a competitive talent pool. Unlock actionable tips on resume optimization, essential technical skills, and high-yield compensation negotiation.",
